@@ -1,252 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
-
-@media (width >= 375px) and (width <= 768px) {
-
-/* Set the font family for the entire body */
-body {
-  font-family: Poppins, sans-serif;
-}
-
-/* Set the font size for h1 elements */
-h1 {
-  font-size: 40px;
-}
-
-/* Style for the navigation bar */
-nav {
-  padding: 24px;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Style for anchor elements */
-a {
-  font-size: 16px;
-}
-
-/* Style for anchor elements within the navigation bar */
-nav > a {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
-  width: 76px;
-  height: 20;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-}
-
-/* Style for the menu button */
-.menu-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-}
-
-/* Add hover style */
-.menu-button:hover {
-  cursor: pointer;
-  background-color: #f0f0f0f0f0;
-}
-
-
-/* Style for the lines within the menu button */
-.line {
-  width: 18px;
-  height: 3px;
-  margin: 1px;
-  background-color: #6070ff;
-  border-radius: 2px;
-}
-
-/* Style for the profile section */
-.profile {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: ; /* Center horizontally */
-  justify-content: center; /* Center vertically */
-  padding: 24px;
-  background-image: url("assets/header-shapes\ mobile.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: auto; /* Add margin to move the section down */
-}
-
-/* Style for the h1 element within the profile section */
-.profile > h1 {
-  margin-top: auto; /* Remove margin-top to center vertically */
-  line-height: 52px;
-  color: #172b4d;
-}
-
-/* Style for the main element within the profile section */
-.profile > main {
-  margin-top: 5px;
-}
-
-/* Style for the p element within the profile section */
-.profile > p {
-  text-transform: uppercase;
-  color: #7f8cff;
-  margin-top: 20px;
-}
-
-/* Style for the nested p element within the main element */
-.profile > main > p {
-  color: #344563;
-}
-
-/* Style for the social container */
-.social-container {
-  display: flex;
-  justify-content: ; /* Center horizontally */
-  margin-top: 20px;
-}
-
-/* Style for the unordered list within the social container */
-.social-container ul {
-  display: flex;
-  justify-content: flex-start;
-  list-style: none;
-}
-
-/* Style for the list items within the social container */
-.social-container li {
-  margin-right: 20px;
-}
-
-/* Works Section */
-#works {
-  padding: 20px;
-  background-color: #f0f0f0; /* adjust color as needed */
-}
-
-.section-title {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.projects-grid {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* creates a responsive grid */
-}
-
-.project-card {
-  padding: 20px;
-  background-color: #fff; /* adjust color as needed */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adds a subtle shadow for depth */
-}
-
-.project-image {
-  width: 100%;
-}
-
-.project-title,
-.company-name,
-.role,
-.year {
-  margin: 0;
-}
-
-.project-details {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-}
-
-.project-description {
-  margin-top: 20px;
-}
-
-.project-tags {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 10px;
-}
-
-.project-tags a {
-  text-decoration: none;
-  color: #333;
-}
-
-.project-button {
-  display: block;
-  margin-top: 20px;
-  padding: 10px;
-  color: #fff;
-}
-
-/* About Myself Section */
-#about {
-  padding: 20px;
-  background-color: #f0f0f0; /* adjust color as needed */
-}
-
-.about-description {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.contact-button {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  background-color: #0c0c0c; /* adjust color as needed */
-  text-decoration: none;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.skill-categories {
-  list-style: none;
-  padding: 0;
-}
-
-.skill-category-title {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.skills {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 20px;
-}
-
-.skills li {
-  margin-bottom: 10px;
-}
-
-}
-
-
-/* Global styles */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-@media (min-width: 769px) {
-  * {
+/* General CSS Rules */
+:root {
+    --blue: #6070ff;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #e5e5e5;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Navbar Design */
+  .main-nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 8vh;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
     display: none;
   }
-}
-
-@media (max-width: 374px) {
-  * {
-    display: none;
+  
+  .brand-logo {
+    margin-left: 24px;
   }
-}
+  
+  .brand-logo a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: var(--blue);
+  }
+  
+  .menu-icon {
+    margin-right: 2vw;
+  }
+  
+  /* Headline Design */
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    background-color: white;
+    margin-top: 8vh;
+    border-bottom-left-radius: 8em;
+    padding: 0 8vw 100px 8vw;
+    background-image: url(assets/header-shapes\ mobile.svg);
+    background-size: 100%;
+    background-position-y: 20%;
+    background-repeat: no-repeat;
+  }
+  
+  .intro-section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 52px;
+    color: #172b4d;
+    margin: 0 0 12px 0;
+  }
+  
+  .intro-section p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    color: #344563;
+    margin-bottom: 12px;
+  }
+  
+  .connect-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 24px;
+    color: #7f8cff;
+    margin-bottom: 16px;
+  }
+  
+  .social-icons {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-icons li {
+    padding-right: 18px;
+  }
+  
+  .project-section {
+    display: grid;
+    padding: 12vh 8vw;
+    row-gap: 12vh;
+  }
+  
+  .project-card {
+    background-color: white;
+    border-radius: 1em;
+    border: 1px solid #dfe1e6;
+    padding: 1em;
+  }
+  
+  .project-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 44px;
+    margin: 10px 0 20px 0;
+  }
+  
+  .project-info {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .project-card h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 16px;
+    color: #344563;
+    margin: 0;
+  }
+  
+  .project-info p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:```css
+  0.9em;
+    line-height: 16px;
+    color: #7a869a;
+    margin: 0 0 0 10px;
+  }
+  
+  .project-info p::before {
+    content: url(img/decoration-circle.png);
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .project-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    color: #344563;
+    margin: 20px 0;
+  }
+  
+  .project-tags {
+    display: flex;
+    margin: 16px 0;
+    padding: 0;
+  }
+  
+  .project-tags a {
+    padding: 4px 12px;
+    background-color: #ebebff;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 16px;
+    color: var(--blue);
+    margin-right: 8px;
+  }
+  
+  .project-btn {
+    padding: 14px;
+    border: 1px solid #396df2;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 24px;
+    color: #396df2;
+    margin: 14px 0 18px 0;
+  }

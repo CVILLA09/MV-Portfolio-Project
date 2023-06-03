@@ -1,163 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professional Portfolio</title>
+    <!-- Main navigation bar or toolbar -->
+    <header>
+      <nav class="main-nav">
+        <div class="brand-logo"><a href="#">My Logo</a></div>
+        <div class="nav-menu">
+          <button class="menu-icon" type="button"><img src="assets/icon-hamburger.svg" alt="Menu icon"></button>
+          <ul class="nav-links">
+            <li><a>Portfolio</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-  <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
+    <!-- Headline Section -->
+    <section class="intro-section">
+      <h1>I’m Cristian.<br>Glad to see you!</h1>
+      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+      <a class="connect-btn">LET'S CONNECT</a>
+      <ul class="social-icons">
+        <li><a href=""><img src="assets/twitter.svg" alt="Twitter icon" class="social-icon"></a></li>
+          <li><a href=""><img src="assets/linkedin.svg" alt="LinkedIn icon" class="social-icon"></a></li>
+          <li><a href=""><img src="assets/medium.svg" alt="Medium icon" class="social-icon"></a></li>
+          <li><a href=""><img src="assets/github.svg" alt="GitHub icon" class="social-icon"></a></li>
+          <li><a href=""><img src="assets/angel.svg" alt="Angelist icon" class="social-icon"></a></li>
+      </ul>
+    </section>
 
-<body>
-  <header>
-  <nav> 
-    <a id="logo">PORTFOLIO</a><!-- Logo of the portfolio -->
-    <div class="menu-button">
-      <button class="menu-button" type="button">><!-- Menu button -->
-       <span class="line"></span><!-- These are part of a hamburger menu button-->
-       <span class="line"></span>
-       <span class="line"></span>
-      </button>
-  </div>
-  </nav>
-  </header>
-
-  <!-- Profile section: includes the details about Cristian -->
-  <section class="profile"> 
-
-      <h1>I am Cristian. Glad to see you!</h1>
-    <main>
-      <p>I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>  
-    </main> 
-   
-      <p>Let's connect</p>
-      <div class="social-container"><!-- Container for social media links -->
-        <ul>
-          <li><a href=""><img src="assets/twitter.svg" alt=""></a></li>
-          <li><a href=""><img src="assets/linkedin.svg" alt=""></a></li>
-          <li><a href=""><img src="assets/medium.svg" alt=""></a></li>
-          <li><a href=""><img src="assets/github.svg" alt=""></a></li>
-          <li><a href=""><img src="assets/other.svg" alt=""></a></li>
-        </ul>
+    <!-- Projects/Works Card Section -->
+    <section class="project-section">
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/Snapshoot-1.svg" alt="Project number 1 image">
+        </div>
+        <div class="project-content">
+          <h2>Tonic</h2>
+          <div class="project-info">
+            <h3>CANOPY</h3>
+            <p>Back End Dev</p>
+            <p>2015</p>
+          </div>
+          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <ul class="project-tags">
+            <li><a>HTML</a></li>
+            <li><a>CSS</a></li>
+            <li><a>JavaScript</a></li>
+          </ul>
+          <button class="project-btn">See Project</button>
+        </div>
       </div>
-  </section>
-
-  <!-- "Works" Section -->
-<section id="works">
-  <h2 class="section-title">My Recent Works</h2>
-  
-  <!-- Projects Grid -->
-  <div class="projects-grid">
-
-    <!-- Project 1 -->
-    <div class="project-card">
-      <img src="img/project-1.png" alt="Project 1" class="project-image">
-      <h3 class="project-title">Tonic</h3>
-      <div class="project-details">
-        <p class="company-name">CANOPY</p>
-        <p class="role">Back End Dev</p>
-        <p class="year">2015</p>
+      
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/Snapshoot-2.svg" alt="Project number 2 image">
+        </div>
+        <div class="project-content">
+          <h2>Multi-Post Stories</h2>
+          <div class="project-info">
+            <h3>CANOPY</h3>
+            <p>Back End Dev</p>
+            <p>2015</p>
+          </div>
+          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <ul class="project-tags">
+            <li><a>HTML</a></li>
+            <li><a>CSS</a></li>
+            <li><a>JavaScript</a></li>
+          </ul>
+          <button class="project-btn">See Project</button>
+        </div>
       </div>
-      <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="project-tags">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
-      </ul>
-      <button class="project-button">See Project</button>
-    </div>
 
-    <!-- Project 2 -->
-    <div class="project-card">
-      <img src="img/project-1.png" alt="Project 1" class="project-image">
-      <h3 class="project-title">Tonic</h3>
-      <div class="project-details">
-        <p class="company-name">CANOPY</p>
-        <p class="role">Back End Dev</p>
-        <p class="year">2015</p>
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/Snapshoot-3.svg" alt="Project number 3 image">
+        </div>
+        <div class="project-content">
+          <h2>Tonic</h2>
+          <div class="project-info">
+            <h3>CANOPY</h3>
+            <p>Back End Dev</p>
+            <p>2015</p>
+          </div>
+          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <ul class="project-tags">
+            <li><a>HTML</a></li>
+            <li><a>CSS</a></li>
+            <li><a>JavaScript</a></li>
+          </ul>
+          <button class="project-btn">See Project</button>
+        </div>
       </div>
-      <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="project-tags">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
-      </ul>
-      <button class="project-button">See Project</button>
-    </div>
 
-    <!-- Project 3 -->
-    <div class="project-card">
-      <img src="img/project-1.png" alt="Project 1" class="project-image">
-      <h3 class="project-title">Tonic</h3>
-      <div class="project-details">
-        <p class="company-name">CANOPY</p>
-        <p class="role">Back End Dev</p>
-        <p class="year">2015</p>
+      <div class="project-card">
+        <div class="project-img">
+          <img src="assets/Snapshoot-4.svg" alt="Project number 4 image">
+        </div>
+        <div class="project-content">
+          <h2>Multi-Post Stories</h2>
+          <div class="project-info">
+            <h3>CANOPY</h3>
+            <p>Back End Dev</p>
+            <p>2015</p>
+          </div>
+          <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+          <ul class="project-tags">
+            <li><a>HTML</a></li>
+            <li><a>CSS</a></li>
+            <li><a>JavaScript</a></li>
+          </ul>
+          <button class="project-btn">See Project</button>
+        </div>
       </div>
-      <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="project-tags">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
-      </ul>
-      <button class="project-button">See Project</button>
-    </div>
-
-    <!-- Project 4 -->
-    <div class="project-card">
-      <img src="img/project-1.png" alt="Project 1" class="project-image">
-      <h3 class="project-title">Tonic</h3>
-      <div class="project-details">
-        <p class="company-name">CANOPY</p>
-        <p class="role">Back End Dev</p>
-        <p class="year">2015</p>
-      </div>
-      <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-      <ul class="project-tags">
-        <li><a href="#">HTML</a></li>
-        <li><a href="#">CSS</a></li>
-        <li><a href="#">JavaScript</a></li>
-      </ul>
-      <button class="project-button">See Project</button>
-    </div>
-  </div>
-</section>
-
-<!-- "About Myself" Section -->
-<section id="about">
-  <h2 class="section-title">About Myself</h2>
-  <p class="about-description">I am a skilled frontend developer with a knack for visual design. I specialize in developing high-quality websites and web applications that look great and function perfectly.</p>
-  <button class="contact-button">Get My Resume</button>
-  <ul class="skill-categories">
-    <li>
-      <h3 class="skill-category-title">Languages</h3>
-      <ul class="skills">
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-      </ul>
-    </li>
-    <li>
-      <h3 class="skill-category-title">Frameworks</h3>
-      <ul class="skills">
-        <li>React</li>
-        <li>Vue</li>
-        <li>Angular</li>
-      </ul>
-    </li>
-    <li>
-      <h3 class="skill-category-title">Skills</h3>
-      <ul class="skills">
-        <li>Web Design</li>
-        <li>UX / UI</li>
-        <li>Debugging</li>
-      </ul>
-    </li>
-  </ul>
-</section>
-
-</body>
-
+    </section>
+  </body>
 </html>
