@@ -50,6 +50,13 @@ nav > a {
   padding: 10px;
 }
 
+/* Add hover style */
+.menu-button:hover {
+  cursor: pointer;
+  background-color: #f0f0f0f0f0;
+}
+
+
 /* Style for the lines within the menu button */
 .line {
   width: 18px;
@@ -116,7 +123,6 @@ nav > a {
   margin-right: 20px;
 }
 }
-
 
 /* Global styles */
 *,
