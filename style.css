@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+
+@media (width >= 375px) and (width <= 768px) {
+
 /* Set the font family for the entire body */
 body {
   font-family: Poppins, sans-serif;
@@ -67,7 +70,7 @@ nav > a {
   background-image: url("assets/header-shapes\ mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 65px; /* Add margin to move the section down */
+  margin-top: auto; /* Add margin to move the section down */
 }
 
 /* Style for the h1 element within the profile section */
@@ -112,6 +115,8 @@ nav > a {
 .social-container li {
   margin-right: 20px;
 }
+}
+
 
 /* Global styles */
 *,
@@ -120,4 +125,16 @@ nav > a {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+@media (min-width: 769px) {
+  * {
+    display: none;
+  }
+}
+
+@media (max-width: 374px) {
+  * {
+    display: none;
+  }
 }
