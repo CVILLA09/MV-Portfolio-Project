@@ -122,7 +122,113 @@ nav > a {
 .social-container li {
   margin-right: 20px;
 }
+
+/* Works Section */
+#works {
+  padding: 20px;
+  background-color: #f0f0f0; /* adjust color as needed */
 }
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* creates a responsive grid */
+}
+
+.project-card {
+  padding: 20px;
+  background-color: #fff; /* adjust color as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* adds a subtle shadow for depth */
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-title,
+.company-name,
+.role,
+.year {
+  margin: 0;
+}
+
+.project-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.project-description {
+  margin-top: 20px;
+}
+
+.project-tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.project-tags a {
+  text-decoration: none;
+  color: #333;
+}
+
+.project-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  color: #fff;
+}
+
+/* About Myself Section */
+#about {
+  padding: 20px;
+  background-color: #f0f0f0; /* adjust color as needed */
+}
+
+.about-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-button {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  background-color: #0c0c0c; /* adjust color as needed */
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skill-categories {
+  list-style: none;
+  padding: 0;
+}
+
+.skill-category-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+
+}
+
 
 /* Global styles */
 *,
