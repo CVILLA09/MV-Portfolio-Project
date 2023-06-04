@@ -109,6 +109,7 @@
     padding-right: 18px;
   }
   
+  /* Project Section */
   .project-section {
     display: grid;
     padding: 12vh 8vw;
@@ -149,11 +150,10 @@
     margin: 0;
   }
   
-  .project-info p {
+.project-info p {
     font-family: var(--main-font);
     font-weight: 600;
-    font-size:```css
-  0.9em;
+    font-size: 0.9em;
     line-height: 16px;
     color: #7a869a;
     margin: 0 0 0 10px;
@@ -191,11 +191,10 @@
     color: var(--blue);
     margin-right: 8px;
   }
-
+  
   .project-tags a:hover {
     background-color: #d6d6ff;
   }
-  
   
   .project-btn {
     padding: 14px;
@@ -208,13 +207,14 @@
     color: #396df2;
     margin: 14px 0 18px 0;
   }
-
+  
   .project-btn:active {
     background-color: #2230d2;
     color: white;
     border-color: #2230d2;
-  }  
-
+  }
+  
+  /* About Myself Section */
   .about-myself {
     display: flex;
     flex-direction: column;
@@ -229,7 +229,7 @@
     margin-top: 114px;
     background-image: url(assets/Base-myself.svg);
   }
-
+  
   .about-myself p {
     font-family: var(--main-font);
     color: #344563;
@@ -237,11 +237,13 @@
     font-size: 1em;
     line-height: 24px;
     margin: 0 0 12px 0;
-}
-
-.about-myself h1, .about-myself h2, .about-myself h3 {
-  font-weight: 700;
-}
+  }
+  
+  .about-myself h1,
+  .about-myself h2,
+  .about-myself h3 {
+    font-weight: 700;
+  }
   
   .about-myself h4 {
     width: 327px;
@@ -257,7 +259,7 @@
     margin-top: 114px;
   }
   
-  .about-myself > main > p {
+.about-myself > main > p {
     width: 327px;
     height: 147px;
     font-family: var(--main-font);
@@ -277,7 +279,6 @@
     align-items: center;
     width: 120px;
     height: 24px;
-    
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -285,10 +286,10 @@
     color: #7f8cff;
     margin-top: 12px 0;
   }
-
+  
   .about-myself .social-icons {
     padding-left: 18px;
-  }  
+  }
   
   .resume-button {
     display: flex;
@@ -331,7 +332,9 @@
     margin-left: 16px;
   }
   
-  .languages, .languages-ht, .languages-cs {
+  .languages,
+  .languages-ht,
+  .languages-cs {
     display: flex;
     background: #f7f7f9;
     width: 303px;
@@ -341,7 +344,9 @@
     border-radius: 8px;
   }
   
-  .languages img, .languages-ht img, .languages-cs img {
+  .languages img,
+  .languages-ht img,
+  .languages-cs img {
     display: flex;
     justify-content: center;
     width: 48px;
@@ -351,8 +356,67 @@
     margin-left: 12px;
   }
   
-  .languages p, .languages-ht p, .languages-cs p {
+  .languages p,
+  .languages-ht p,
+  .languages-cs p {
     font-family: var(--main-font);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
+  }
+  
+  .about-myself .intro-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    background-color: #f5f5f5;
+    padding: 40px;
+  }
+  
+  .about-myself .intro-section h1 {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 52px;
+    color: #172b4d;
+    margin: 0 0 12px 0;
+  }
+  
+  .about-myself .intro-section p {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    color: #344563;
+    margin-bottom: 12px;
+  }
+
+  .about-myself .intro-section p {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 24px;
+    color: #344563;
+    margin-bottom: 12px;
+  }
+  
+  .about-myself .intro-section .connect-btn {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 24px;
+    color: #7f8cff;
+    margin-bottom: 16px;
+  }
+  
+  .about-myself .intro-section .social-icons {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .about-myself .intro-section .social-icons li {
+    padding-right: 18px;
+  }
+  
