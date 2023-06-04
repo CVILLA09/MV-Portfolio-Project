@@ -31,6 +31,8 @@ In this project, I will be building my personal portfolio website. The goal is t
 
 - HTML
 - CSS
+- Flexbox
+- CSS Grid
 
 ### Key Features
 
