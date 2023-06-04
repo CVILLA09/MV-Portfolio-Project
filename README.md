@@ -1,5 +1,5 @@
 <div align="center">
-  <h3><b>Portfolio</b></h3>
+  <h1><b>Portfolio</b></h1>
 </div>
 
 # 📗 Table of Contents
@@ -31,6 +31,8 @@ In this project, I will be building my personal portfolio website. The goal is t
 
 - HTML
 - CSS
+- Flexbox
+- CSS Grid
 
 ### Key Features
 
