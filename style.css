@@ -205,16 +205,29 @@
   }
 
   .about-myself {
+    font-family: var(--main-font);
     background-size: cover;
     width: 375px;
     height: 1263px;
     display: flex;
     flex-direction: column;
     padding: 24px;
-    background-color: #fff;
+    background-color: #e5e5e5;
     margin-top: 114px;
     border-top-right-radius: 80px;
+    background-image: url(assets/Base-myself.svg);
   }
+
+  .about-myself p {
+    color: #344563;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 20px 0;
+}
+
+.about-myself h1, .about-myself h2, .about-myself h3 {
+  font-weight: 700;
+}
   
   .about-myself h4 {
     width: 327px;
