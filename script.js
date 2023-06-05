@@ -1,0 +1,1 @@
+document.getElementsByTagName('h1').innerHtml = 'From JS';
