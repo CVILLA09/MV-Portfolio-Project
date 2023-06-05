@@ -1,144 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* General CSS Rules */
+:root {
+  --blue: #6070ff;
+  --main-font: 'Poppins', sans-serif;
+}
 
-
-@media (width >= 375px) and (width <= 768px) {
-
-/* Set the font family for the entire body */
 body {
-  font-family: Poppins, sans-serif;
+  margin: 0;
+  background-color: #e5e5e5;
 }
 
-/* Set the font size for h1 elements */
-h1 {
-  font-size: 40px;
-}
-
-/* Style for the navigation bar */
-nav {
-  padding: 24px;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* Style for anchor elements */
 a {
-  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-/* Style for anchor elements within the navigation bar */
-nav > a {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #6070ff;
-  width: 76px;
-  height: 20;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-}
-
-/* Style for the menu button */
-.menu-button {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: none;
+button {
+  cursor: pointer;
   border: none;
-  cursor: pointer;
-  padding: 10px;
+  background: none;
 }
 
-/* Add hover style */
-.menu-button:hover {
-  cursor: pointer;
-  background-color: #FFFFFF;
-}
-
-
-/* Style for the lines within the menu button */
-.line{
-  width: 18px;
-  height: 3px;
-  margin: 1px;
-  background-color: #6070ff;
-  border-radius: 2px;
-}
-
-/* Style for the profile section */
-.profile{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Center vertically */
-  padding: 24px;
-  background-image: url("assets/header-shapes\ mobile.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: auto; /* Add margin to move the section down */
-}
-
-/* Style for the h1 element within the profile section */
-.profile > h1 {
-  margin-top: auto; /* Remove margin-top to center vertically */
-  line-height: 52px;
-  color: #172b4d;
-}
-
-/* Style for the main element within the profile section */
-.profile > main {
-  margin-top: 5px;
-}
-
-/* Style for the p element within the profile section */
-.profile > p {
-  text-transform: uppercase;
-  color: #7f8cff;
-  margin-top: 20px;
-}
-
-/* Style for the nested p element within the main element */
-.profile > main > p {
-  color: #344563;
-}
-
-/* Style for the social container */
-.social-container {
-  display: flex;
-  margin-top: 20px;
-}
-
-/* Style for the unordered list within the social container */
-.social-container ul {
-  display: flex;
-  justify-content: flex-start;
+ul {
   list-style: none;
 }
 
-/* Style for the list items within the social container */
-.social-container li {
-  margin-right: 20px;
-}
+/* Navbar Design */
+.main-nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 8vh;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Global styles */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+.nav-links {
+  display: none;
+}
+
+.brand-logo {
+  margin-left: 24px;
+}
+
+.brand-logo a {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--blue);
+}
+
+.menu-icon {
+  margin-right: 2vw;
+}
+
+/* Headline Design */
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  background-color: white;
+  margin-top: 8vh;
+  border-bottom-left-radius: 8em;
+  padding: 0 8vw 100px 8vw;
+  background-image: url(assets/header-shapes\ mobile.svg);
+  background-size: 100%;
+  background-position-y: 20%;
+  background-repeat: no-repeat;
+}
+
+.intro-section h1 {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 52px;
+  color: #172b4d;
+  margin: 0 0 12px 0;
+}
+
+.intro-section p {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 12px;
+}
+
+.connect-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-bottom: 16px;
+}
+
+.social-icons {
+  display: flex;
   padding: 0;
   margin: 0;
 }
 
-@media (min-width: 769px) {
-  * {
-    display: none;
-  }
-}
-
-@media (max-width: 374px) {
-  * {
-    display: none;
-  }
+.social-icons li {
+  padding-right: 18px;
 }
