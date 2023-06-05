@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <h1><b>Portfolio</b></h1> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/CVILLA09/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CVILLA09/Portfolio/issues"
+  },
+  "homepage": "https://github.com/CVILLA09/Portfolio#readme",
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
+}
