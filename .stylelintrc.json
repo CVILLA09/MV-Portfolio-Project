@@ -19,7 +19,3 @@
   "csstree/validator": true,
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 213c411 (add linters again)
