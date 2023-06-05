@@ -41,6 +41,7 @@ ul {
 }
 
 .brand-logo {
+  display: flex;
   margin-left: 24px;
 }
 
