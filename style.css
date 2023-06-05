@@ -67,7 +67,6 @@ nav > a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: ; /* Center horizontally */
   justify-content: center; /* Center vertically */
   padding: 24px;
   background-image: url("assets/header-shapes\ mobile.png");
@@ -103,7 +102,6 @@ nav > a {
 /* Style for the social container */
 .social-container {
   display: flex;
-  justify-content: ; /* Center horizontally */
   margin-top: 20px;
 }
 
