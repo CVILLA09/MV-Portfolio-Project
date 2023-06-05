@@ -1,47 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Professional Portfolio</title>
-
-  <link rel="stylesheet" type="text/css" href="style.css" />
-</head>
-
-<body>
-  <header>
-  <nav> 
-    <a id="logo">MY PORTFOLIO</a>
-    <div class="menu-button">
-      <button class="menu-button">
-       <span class="line"></span>
-       <span class="line"></span>
-       <span class="line"></span>
-      </button>
-  </div>
-  </nav>
-  </header>
-
-  <section class="profile"> 
-
-      <h1>I am Cristian. Glad to see you!</h1>
-    <main>
-      <p>I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>  
-    </main> 
-   
-      <p>Let's connect</p>
-      <div class="social-container">
-        <ul>
-          <li><a href=""><img src="assets/twitter.svg" alt=""></a></li>
-          <li><a href=""><img src="assets/linkedin.svg" alt=""></a></li>
-          <li><a href=""><img src="assets/medium.svg" alt=""></a></li>
-          <li><a href=""><img src="assets/github.svg" alt=""></a></li>
-          <li><a href=""><img src="assets/other.svg" alt=""></a></li>
-        </ul>
-      </div>
-  </section>
-</body>
-
+<html>
+  <head>
+    <meta charset="UTF-8"> <!-- Meta tags and links to external resources such as CSS and fonts -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Main navigation bar or toolbar -->
+    <header>
+      <nav class="main-nav">
+        <div class="brand-logo"><a href="#">My Logo</a></div>
+        <!-- Navigation menu with links to different sections of the page -->
+        <div class="nav-menu">
+          <button type="button" class="menu-icon"><img src="assets/icon-hamburger.svg" alt="Menu icon"></button>
+          <ul class="nav-links">
+            <li><a>Portfolio</a></li>
+            <li><a>About</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Headline Section -->
+    <!-- This section includes a brief introduction and social media links -->
+    <section class="intro-section">
+      <h1>I’m Cristian.<br>Glad to see you!</h1>
+      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+      <a class="connect-btn">LET'S CONNECT</a>
+      <ul class="social-icons">
+        <li><a href=""><img src="assets/twitter.svg" alt="Twitter icon" class="social-icon"></a></li>
+          <li><a href=""><img src="assets/linkedin.svg" alt="LinkedIn icon" class="social-icon"></a></li>
+          <li><a href=""><img src="assets/medium.svg" alt="Medium icon" class="social-icon"></a></li>
+          <li><a href=""><img src="assets/github.svg" alt="GitHub icon" class="social-icon"></a></li>
+          <li><a href=""><img src="assets/angel.svg" alt="Angelist icon" class="social-icon"></a></li>
+      </ul>
+    </section>
+  </body>
 </html>
