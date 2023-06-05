@@ -50,7 +50,7 @@ nav > a {
 /* Add hover style */
 .menu-button:hover {
   cursor: pointer;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 /* Style for the lines within the menu button */
