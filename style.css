@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* General CSS Rules */
 :root {
     --blue: #6070ff;
@@ -7,11 +8,42 @@
   body {
     margin: 0;
     background-color: #e5e5e5;
+=======
+    /* GLOBAL SETTINGS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  :root {
+    --blue: #6070ff;
+    --main-font: 'Poppins', sans-serif;
+    --primaryColor: #172b4d;
+    --secondaryColor: #344563;
+    --thirdColor: #6070ff;
+    --buttonColor: #396df2;
+    --mainBackground: #e5e5e5;
+    --socialMedia: #505f79;
+    --borderColor: #dfe1e6;
+  }
+  
+  body {
+     margin: 0;
+     background-color: var(--mainBackground);
+     font-family: var(--main-font);
+>>>>>>> Stashed changes
   }
   
   a {
     text-decoration: none;
     cursor: pointer;
+<<<<<<< Updated upstream
+=======
+    color: inherit;
+>>>>>>> Stashed changes
   }
   
   button {
@@ -22,6 +54,10 @@
   
   ul {
     list-style: none;
+<<<<<<< Updated upstream
+=======
+    padding: 0;
+>>>>>>> Stashed changes
   }
   
   /* Navbar Design */
@@ -30,7 +66,11 @@
     position: fixed;
     width: 100%;
     background-color: white;
+<<<<<<< Updated upstream
     height: 8vh;
+=======
+    height: 5rem;
+>>>>>>> Stashed changes
     top: 0;
     justify-content: space-between;
     align-items: center;
@@ -41,11 +81,18 @@
   }
   
   .brand-logo {
+<<<<<<< Updated upstream
+=======
+    display: flex;
+>>>>>>> Stashed changes
     margin-left: 24px;
   }
   
   .brand-logo a {
+<<<<<<< Updated upstream
     font-family: var(--main-font);
+=======
+>>>>>>> Stashed changes
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
@@ -73,7 +120,10 @@
   }
   
   .intro-section h1 {
+<<<<<<< Updated upstream
     font-family: var(--main-font);
+=======
+>>>>>>> Stashed changes
     font-weight: 700;
     font-size: 2.5em;
     line-height: 52px;
@@ -82,7 +132,10 @@
   }
   
   .intro-section p {
+<<<<<<< Updated upstream
     font-family: var(--main-font);
+=======
+>>>>>>> Stashed changes
     font-weight: 400;
     font-size: 1em;
     line-height: 24px;
@@ -91,7 +144,10 @@
   }
   
   .connect-btn {
+<<<<<<< Updated upstream
     font-family: var(--main-font);
+=======
+>>>>>>> Stashed changes
     font-weight: 500;
     font-size: 1em;
     line-height: 24px;
@@ -108,6 +164,7 @@
   .social-icons li {
     padding-right: 18px;
   }
+<<<<<<< Updated upstream
   
   /* Project Section */
   .project-section {
@@ -394,10 +451,69 @@
 
   .about-myself .intro-section p {
     font-family: var(--main-font);
+=======
+
+  /* Project Section */
+  .project-section {
+    display: grid;
+    padding: 12vh 8vw;
+    row-gap: 12vh;
+  }
+  
+  .project-card {
+    background-color: white;
+    border-radius: 1em;
+    border: 1px solid #dfe1e6;
+    padding: 1em;
+  }
+  
+  .project-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .project-card h2 {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin: 0.5em 0 0.75em 0;
+  }
+  
+  .project-info {
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .project-card h3 {
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 16px;
+    color: #344563;
+    margin: 0;
+  }
+  
+  .project-info p {
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 16px;
+    color: #7a869a;
+    margin: 0 0 0 10px;
+  }
+  
+  .project-info p::before {
+    content: url(assets/Counter.svg);
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .project-description {
+>>>>>>> Stashed changes
     font-weight: 400;
     font-size: 1em;
     line-height: 24px;
     color: #344563;
+<<<<<<< Updated upstream
     margin-bottom: 12px;
   }
   
@@ -420,3 +536,175 @@
     padding-right: 18px;
   }
   
+=======
+    margin: 20px 0;
+  }
+  
+  .project-tags {
+    display: flex;
+    margin: 16px 0;
+  }
+  
+  .project-tags a {
+    padding: 4px 12px;
+    background-color: #ebebff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.8em;
+    line-height: 16px;
+    color: var(--blue);
+    margin-right: 8px;
+  }
+  
+  .project-tags a:hover {
+    background-color: #d6d6ff;
+  }
+  
+  .project-btn {
+    padding: 14px;
+    border: 1px solid var(--buttonColor);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 24px;
+    color: var(--buttonColor);
+    margin: 14px 0 18px 0; 
+  }
+  
+  .project-btn:active {
+    background-color: #2230d2; 
+    color: white; 
+    border-color: #2230d2; 
+  }
+  
+/* ABOUT SECTION */
+.about-section {
+    margin-top: 114px;
+  }
+  
+  .about-container {
+    background-color: #fff;
+    padding: 114px 0;
+    border-radius: 0 15% 0 0;
+  }
+  
+  .about-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 327px;
+    gap: 12px;
+  }
+  
+  .about-title {
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  .about-description {
+    color: var(--secondaryColor);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .about-connect {
+    color: #7f8cff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .social-media-list {
+    display: flex;
+    gap: 21px;
+    list-style: none;
+    margin-top: 14px;
+  }
+  
+  .social-media-item {
+    font-size: 20px;
+  }
+  
+  .resume-button {
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid var(--thirdColor);
+    border-radius: 8px;
+    color: var(--buttonColor);
+    padding: 12px;
+    background: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    width: 49%;
+  }
+  
+  .resume-button:hover {
+    background-color: var(--thirdColor);
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+  
+  .resume-button.press {
+    background: #2230d2;
+    color: #fff;
+  }
+  
+  .skills-section {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    max-width: 327px;
+    margin: 0 auto;
+    gap: 12px;
+  }
+  
+  .skills-container {
+    list-style: none;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .skills-container.active {
+    border-bottom: 1px solid #dfe1e6;
+  }
+  
+  .skills-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .skills-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .skills-item {
+    background-color: #f7f7f9;
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  .language-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .language-image {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .skills-item-title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #253858;
+  }
+  
+  /* END */
+>>>>>>> Stashed changes
