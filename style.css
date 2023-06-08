@@ -3,20 +3,20 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  font-family: poppins, sans-serif;
 }
 
 :root {
   --blue: #6070ff;
-  --main-font: "Poppins", sans-serif;
-  --buttonColor: #396df2;
-  --mainBackground: #e5e5e5;
+  --main-font: poppins, sans-serif;
+  --button-color: #396df2;
+  --main-background: #e5e5e5;
 }
 
 body {
   margin: 0;
-  background-color: var(--mainBackground);
+  background-color: var(--main-background);
   font-family: var(--main-font);
 }
 
@@ -78,8 +78,8 @@ ul {
   background-color: white;
   margin-top: 8vh;
   border-bottom-left-radius: 8em;
-  padding: 0 8vw 100px 8vw;
-  background-image: url(assets/header-shapes\ mobile.svg);
+  padding: 0 8vw;
+  background-image: url("assets/header-shapes\ mobile.svg");
   background-size: 100%;
   background-position-y: 20%;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@ ul {
   font-size: 2.5em;
   line-height: 52px;
   color: #172b4d;
-  margin: 0 0 12px 0;
+  margin: 0 0 12px;
 }
 
 .intro-section p {
@@ -143,7 +143,7 @@ ul {
   font-weight: 700;
   font-size: 2em;
   line-height: 1.5em;
-  margin: 0.5em 0 1em 0;
+  margin: 0.5em 0 1em;
 }
 
 .project-info {
@@ -168,7 +168,7 @@ ul {
 }
 
 .project-info p::before {
-  content: url(assets/Counter.svg);
+  content: url("assets/Counter.svg");
   display: inline-block;
   margin-right: 10px;
 }
@@ -203,13 +203,13 @@ ul {
 
 .project-btn {
   padding: 14px;
-  border: 1px solid var(--buttonColor);
+  border: 1px solid var(--button-color);
   border-radius: 8px;
   font-weight: 500;
   font-size: 1.1em;
   line-height: 24px;
-  color: var(--buttonColor);
-  margin: 14px 0 18px 0;
+  color: var(--button-color);
+  margin: 14px 0 18px;
 }
 
 .project-btn:active {
@@ -272,7 +272,7 @@ ul {
   margin-top: 10px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  color: var(--buttonColor);
+  color: var(--button-color);
   padding: 12px;
   background: #fff;
   font-size: 17px;
@@ -283,7 +283,7 @@ ul {
 .resume-button:hover {
   background-color: #6070ff;
   color: #fff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64 83 252 / 24%);
 }
 
 .resume-button.press {
