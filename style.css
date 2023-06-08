@@ -3,13 +3,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
 :root {
   --blue: #6070ff;
-  --main-font: 'Poppins', sans-serif;
+  --main-font: "Poppins", sans-serif;
   --buttonColor: #396df2;
   --mainBackground: #e5e5e5;
 }
