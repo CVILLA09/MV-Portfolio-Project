@@ -10,13 +10,8 @@
     :root {
       --blue: #6070ff;
       --main-font: 'Poppins', sans-serif;
-      --primaryColor: #172b4d;
-      --secondaryColor: #344563;
-      --thirdColor: #6070ff;
       --buttonColor: #396df2;
       --mainBackground: #e5e5e5;
-      --socialMedia: #505f79;
-      --borderColor: #dfe1e6;
     }
     
     body {
@@ -243,13 +238,13 @@
     }
     
     .about-title {
-      color: var(--primaryColor);
+      color: #172b4d;;
       font-size: 2.5rem;
       font-weight: 700;
     }
     
     .about-description {
-      color: var(--secondaryColor);
+      color: #344563;
       font-size: 16px;
       font-weight: 400;
     }
@@ -275,7 +270,7 @@
     .resume-button {
       cursor: pointer;
       margin-top: 10px;
-      border: 1px solid var(--thirdColor);
+      border: 1px solid #6070ff;
       border-radius: 8px;
       color: var(--buttonColor);
       padding: 12px;
@@ -286,7 +281,7 @@
     }
     
     .resume-button:hover {
-      background-color: var(--thirdColor);
+      background-color: #6070ff;
       color: #fff;
       box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     }
@@ -353,4 +348,3 @@
     }
     
     /* END */
-  
