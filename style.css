@@ -121,7 +121,9 @@ ul {
 
 /* Project Section */
 .project-section {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 12vh 8vw;
   row-gap: 12vh;
 }
@@ -140,6 +142,7 @@ ul {
 }
 
 .project-card h2 {
+  color: #172b4d;
   font-weight: 700;
   font-size: 2em;
   line-height: 1.5em;
@@ -221,12 +224,14 @@ ul {
 /* ABOUT SECTION */
 .about-section {
   margin-top: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .about-container {
   background-color: #fff;
   padding: 114px 0;
-  border-radius: 0 15% 0 0;
+  border-radius: 0 80px 0 0;
 }
 
 .about-info {
