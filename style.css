@@ -121,7 +121,7 @@ ul {
 
 /* Project Section */
 .project-section {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 12vh 8vw;
@@ -246,6 +246,21 @@ ul {
   color: #172b4d;
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+.title-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dfe1e6; /* Adjust the color and size as needed */
+  padding-bottom: 2.5px; /* Adjust as needed */
 }
 
 .about-description {
