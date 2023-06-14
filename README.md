@@ -76,6 +76,13 @@ You can deploy this project using any hosting platform of your choice.
 
 - GitHub: [@CVILLA09](https://github.com/CVILLA09)
 
+# 👥 Colaborators <a name="colaborators"></a>
+
+👤 Facundo Malgarini
+
+- GitHub: [@fmalgarini](https://github.com/fmalgarini)
+
+
 # 🔭 Future Features <a name="future-features"></a>
 
 - Add project sections to showcase individual projects with descriptions and images.

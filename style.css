@@ -355,6 +355,7 @@ ul {
   align-items: center;
   gap: 16px;
 }
+
 .language-image {
   width: 48px;
   height: 48px;
@@ -385,6 +386,7 @@ ul {
   background-size: contain;
   background-position-x: right;
 }
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -432,19 +434,26 @@ form {
   font: var(--input-font);
   color: var(--input-color);
 }
+
 .input-field {
   height: 48px;
 }
+
 .textarea-field {
   height: 170px;
   margin-bottom: 22px;
   padding: 15px;
 }
+<<<<<<< HEAD
 .input-field::placeholder {
   font: var(--input-placeholder);
   color: rgba(23, 43, 77, 1);
 }
 
+=======
+
+.input-field::placeholder,
+>>>>>>> 4bae0d93cc11d999a081dd8e894264da48c141ac
 .textarea-field::placeholder {
   font: var(--input-placeholder);
 }
@@ -468,7 +477,7 @@ form {
   border-color: white;
 }
 
-..button-form:active {
+.button-form:active {
   background-color: #2230d2;
   color: white;
   border-color: #2230d2;
