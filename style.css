@@ -440,7 +440,11 @@ form {
   margin-bottom: 22px;
   padding: 15px;
 }
-.input-field::placeholder,
+.input-field::placeholder {
+  font: var(--input-placeholder);
+  color: rgba(23, 43, 77, 1);
+}
+
 .textarea-field::placeholder {
   font: var(--input-placeholder);
 }
@@ -455,6 +459,7 @@ form {
   color: var(--blue);
   padding: 12px 16px;
   border: 1px solid var(--blue);
+  margin-left: 15px;
 }
 
 .button-form:hover {
