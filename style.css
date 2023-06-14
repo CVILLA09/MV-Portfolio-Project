@@ -444,16 +444,11 @@ form {
   margin-bottom: 22px;
   padding: 15px;
 }
-<<<<<<< HEAD
 .input-field::placeholder {
   font: var(--input-placeholder);
   color: rgba(23, 43, 77, 1);
 }
 
-=======
-
-.input-field::placeholder,
->>>>>>> 4bae0d93cc11d999a081dd8e894264da48c141ac
 .textarea-field::placeholder {
   font: var(--input-placeholder);
 }
@@ -472,7 +467,7 @@ form {
 }
 
 .button-form:hover {
-  background-color: var(--blue);
+  background-color: #6070ff;
   color: white;
   border-color: white;
 }
