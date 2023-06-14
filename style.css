@@ -355,7 +355,6 @@ ul {
   align-items: center;
   gap: 16px;
 }
-
 .language-image {
   width: 48px;
   height: 48px;
@@ -367,5 +366,105 @@ ul {
   color: #253858;
 }
 
-/* contact from css edits */
+/* Contact Section */
+.contact-section {
+  background-color: white;
+  padding: 10vh 0 0 0;
+}
 
+.contact-container {
+  background-color: var(--blue);
+  padding: 15vh 8vw 5vh 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 8em;
+  background-image: url(assets/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-container h2 {
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 52px;
+  color: white;
+  margin: 0 0 8px 0;
+}
+
+.contact-container p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.labels {
+  display: none;
+}
+
+.input-field,
+.textarea-field {
+  width: calc(100% - 30px);
+  border-radius: 8px;
+  border: var(--input-border);
+  margin-bottom: 20px;
+  padding: 0 15px;
+  cursor: pointer;
+  font: var(--input-font);
+  color: var(--input-color);
+}
+.input-field {
+  height: 48px;
+}
+.textarea-field {
+  height: 170px;
+  margin-bottom: 22px;
+  padding: 15px;
+}
+.input-field::placeholder,
+.textarea-field::placeholder {
+  font: var(--input-placeholder);
+}
+
+.button-form {
+  align-self: self-start;
+  background-color: white;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 24px;
+  color: var(--blue);
+  padding: 12px 16px;
+  border: 1px solid var(--blue);
+}
+
+.button-form:hover {
+  background-color: var(--blue);
+  color: white;
+  border-color: white;
+}
+
+..button-form:active {
+  background-color: #2230d2;
+  color: white;
+  border-color: #2230d2;
+}
