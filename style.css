@@ -589,19 +589,33 @@ form {
     margin-right: 1.5em;
   }
 
-  .about-section-ul {
-    width: 100%;
-    padding: 0;
+  /* Contact Section */
+  .contact-section {
+    padding-top: 10vh;
   }
 
-  .skills-list {
-    display: flex;
+  .contact-container {
+    padding: 10vw 25vw;
+    background-image: url(assets/background-desktop-contact-form.png);
+    background-size: contain;
+    background-position: center;
   }
 
-  .skills-item {
-    width: 87px;
-    margin-right: 0.6em;
-    padding-top: 75px;
-    justify-content: center;
+  .form-container {
+    max-width: 460px;
+  }
+
+  .form-container p {
+    width: 569px;
+    height: 102px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ebebff;
+    padding-top: 1vh;
+  }
+
+  .button-form {
+    align-self: center;
   }
 }
