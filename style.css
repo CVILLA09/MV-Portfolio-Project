@@ -589,6 +589,26 @@ form {
     margin-right: 1.5em;
   }
 
+  .skills-section {
+    width: 100%;
+    padding: 0;
+  }
+
+  .skills-item {
+    width: 87px;
+    margin-right: 0.6em;
+    padding-top: 75px;
+    justify-content: center;
+  }
+
+  #js::before,
+  #html::before,
+  #css::before {
+    position: absolute;
+    padding-bottom: 90px;
+    padding-left: 20px;
+  }
+
   /* Contact Section */
   .contact-section {
     padding-top: 10vh;
