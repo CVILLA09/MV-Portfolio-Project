@@ -537,4 +537,71 @@ form {
     font-size: 16px;
     margin-top: 2vh;
   }
+
+  /* Projects Section*/
+  .project-section {
+    padding: 10vw;
+    row-gap: 10vw;
+  }
+
+  .project-card {
+    display: flex;
+  }
+
+  .project-img {
+    align-self: center;
+  }
+
+  .project-img img {
+    width: calc(35vw - 1em);
+  }
+
+  .project-content {
+    margin: 0 3.2vw;
+  }
+
+  .project-content h2 {
+    padding-top: 12px;
+  }
+
+  .project-info {
+    padding-top: 12px;
+  }
+
+  .right {
+    flex-direction: row-reverse;
+  }
+
+  .right .project-content {
+    margin: 0 2.2vw;
+  }
+
+  /* About Section */
+  .about-section {
+    flex-direction: row;
+    justify-content: start;
+    padding: 7vw 10vw;
+  }
+
+  .about-info {
+    width: 65%;
+    min-width: 295px;
+    margin-right: 1.5em;
+  }
+
+  .about-section-ul {
+    width: 100%;
+    padding: 0;
+  }
+
+  .skills-list {
+    display: flex;
+  }
+
+  .skills-item {
+    width: 87px;
+    margin-right: 0.6em;
+    padding-top: 75px;
+    justify-content: center;
+  }
 }
