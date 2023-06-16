@@ -222,6 +222,12 @@ ul {
   border-color: #2230d2;
 }
 
+.project-btn:hover {
+  background-color: #6070ff;
+  color: white;
+  border-color: white;
+}
+
 .hide-on-mobile {
   display: none;
 }
