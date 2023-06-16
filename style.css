@@ -598,7 +598,7 @@ form {
   .about-info {
     width: 65%;
     min-width: 295px;
-    margin-left: 11vw;
+    margin-left: 10vw;
   }
 
   .social-media-list {
@@ -614,13 +614,14 @@ form {
   .skills-section-wrapper {
     width: 100vw; /* Set the width to 100% of the viewport width */
     margin-right: 0; /* Remove the right margin */
+    padding-top: 1%;
   }
 
   .skills-section {
     padding: 0;
     position: relative;
-    width: 100%; 
-    margin-left: 10vw;
+    width: 100%;
+    margin-left: 11vw;
   }
 
   .skills-list {
@@ -660,7 +661,7 @@ form {
   .arrow-image {
     float: right;
   }
-  
+
   .language-image {
     position: absolute;
     width: 48px;
@@ -685,16 +686,8 @@ form {
     align-items: center;
     padding-bottom: 2.5px; /* Adjust as needed */
     position: relative; /* Add this line */
-  }
-
-  .title-container::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 42vw; 
-    border-bottom: 1px solid #dfe1e6;
-  }  
+    border-image: url("assets/Separator\ Bottom@2x.png") 1 stretch;
+    flex-basis: 100%; /* adjust this value as needed */
   }
 
   /* Contact Section */
