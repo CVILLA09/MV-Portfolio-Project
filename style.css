@@ -610,10 +610,12 @@ form {
   .project-img-2 {
     transition: transform 0.5s ease, opacity 0.5s ease;
   }
+
   .project-img-1:hover {
     transform: rotate(5deg);
     opacity: 0.8;
   }
+
   .project-img-2:hover {
     transform: rotate(-5deg);
     opacity: 0.8;
@@ -725,9 +727,11 @@ form {
     0% {
       transform: translateY(0);
     }
+
     50% {
       transform: translateY(-20px);
     }
+
     100% {
       transform: translateY(0);
     }
