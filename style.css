@@ -577,9 +577,17 @@ form {
   }
 
   /* About Section */
-  .about-section {
+  #about-section {
+    display: flex;
     flex-direction: row;
     justify-content: start;
+    padding: 7vw 10vw;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 7vw 10vw;
   }
 
@@ -589,8 +597,25 @@ form {
     margin-right: 1.5em;
   }
 
+  .social-media-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-media-item {
+    margin-right: 0.6em;
+  }
+
   .skills-section {
     width: 100%;
+    padding: 0;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
     padding: 0;
   }
 
@@ -601,10 +626,8 @@ form {
     justify-content: center;
   }
 
-  #js::before,
-  #html::before,
-  #css::before {
-    position: absolute;
+  .language-image {
+    position: relative;
     padding-bottom: 90px;
     padding-left: 20px;
   }
