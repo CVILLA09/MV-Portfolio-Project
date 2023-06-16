@@ -222,6 +222,10 @@ ul {
   border-color: #2230d2;
 }
 
+.hide-on-mobile {
+  display: none;
+}
+
 /* ABOUT SECTION */
 .about-section {
   margin-top: 0;
@@ -576,6 +580,10 @@ form {
     margin: 0 2.2vw;
   }
 
+  .hide-on-mobile {
+    display: block;
+  }
+
   /* About Section */
   .about-section {
     display: flex;
@@ -688,6 +696,7 @@ form {
     position: relative; /* Add this line */
     border-image: url("assets/Separator\ Bottom@2x.png") 1 stretch;
     flex-basis: 100%; /* adjust this value as needed */
+    border-bottom-width: 1px;
   }
 
   /* Contact Section */
