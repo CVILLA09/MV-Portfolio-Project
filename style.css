@@ -542,7 +542,7 @@ form {
     margin-top: 2vh;
   }
 
-  /* Projects Section*/
+  /* Projects Section */
   .project-section {
     padding: 10vw;
     row-gap: 10vw;
@@ -666,6 +666,7 @@ form {
   .skills-image {
     float: right;
   }
+
   .arrow-image {
     float: right;
   }
