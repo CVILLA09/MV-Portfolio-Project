@@ -577,24 +577,28 @@ form {
   }
 
   /* About Section */
-  #about-section {
+  .about-section {
     display: flex;
-    flex-direction: row;
     justify-content: start;
-    padding: 7vw 10vw;
+    padding-top: 1vh;
   }
 
   .about-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 7vw 10vw;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .about-description {
+    width: 447px;
+    height: 102px;
   }
 
   .about-info {
     width: 65%;
     min-width: 295px;
-    margin-right: 1.5em;
+    margin-left: 11vw;
   }
 
   .social-media-list {
@@ -607,9 +611,16 @@ form {
     margin-right: 0.6em;
   }
 
+  .skills-section-wrapper {
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    margin-right: 0; /* Remove the right margin */
+  }
+
   .skills-section {
-    width: 100%;
     padding: 0;
+    position: relative;
+    width: 100%; 
+    margin-left: 10vw;
   }
 
   .skills-list {
@@ -620,16 +631,70 @@ form {
   }
 
   .skills-item {
-    width: 87px;
-    margin-right: 0.6em;
+    width: 122px;
+    height: 120px;
+    margin-right: 0.8em;
     padding-top: 75px;
     justify-content: center;
+    position: relative;
+    background: #f7f7f9;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
+  .skills-item-title {
+    margin-left: 0;
+    padding-left: 0;
+    position: absolute;
+    width: 98px;
+    height: 24px;
+    left: 12px;
+    top: 76px;
+  }
+
+  .skills-image {
+    float: right;
+  }
+  .arrow-image {
+    float: right;
+  }
+  
   .language-image {
-    position: relative;
-    padding-bottom: 90px;
-    padding-left: 20px;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px / 2 - 20px);
+    top: 12px;
+  }
+
+  .title-container1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5px; /* Adjust as needed */
+    position: relative; /* Add this line */
+  }
+
+  .title-container {
+    width: 100%; /* Adjust the width directly */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5px; /* Adjust as needed */
+    position: relative; /* Add this line */
+  }
+
+  .title-container::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 42vw; 
+    border-bottom: 1px solid #dfe1e6;
+  }  
   }
 
   /* Contact Section */
