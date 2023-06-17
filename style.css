@@ -86,6 +86,22 @@ ul {
   background-repeat: no-repeat;
 }
 
+.headline,
+.subtext,
+.connect-btn,
+.social-icons {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInMoveUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInMoveUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .intro-section h1 {
   font-weight: 700;
   font-size: 2.5em;
@@ -526,22 +542,6 @@ form {
     justify-content: center;
   }
 
-  .headline,
-  .subtext,
-  .connect-btn,
-  .social-icons {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInMoveUp 0.8s ease-out forwards;
-  }
-
-  @keyframes fadeInMoveUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
   .intro-section h1 {
     font-size: 48px;
     font-weight: 700;
@@ -582,6 +582,23 @@ form {
     width: calc(35vw - 1em);
   }
 
+  .project-img-1,
+  .project-img-2 {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  .project-img-1:hover {
+    transform: rotate(5deg);
+    opacity: 0.8;
+  }
+
+  .project-img-2:hover {
+    transform: rotate(-5deg);
+    opacity: 0.8;
+  }
+
   .project-content {
     margin: 0 3.2vw;
   }
@@ -604,21 +621,6 @@ form {
 
   .hide-on-mobile {
     display: block;
-  }
-
-  .project-img-1,
-  .project-img-2 {
-    transition: transform 0.5s ease, opacity 0.5s ease;
-  }
-
-  .project-img-1:hover {
-    transform: rotate(5deg);
-    opacity: 0.8;
-  }
-
-  .project-img-2:hover {
-    transform: rotate(-5deg);
-    opacity: 0.8;
   }
 
   /* About Section */
