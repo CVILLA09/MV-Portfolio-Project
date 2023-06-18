@@ -83,11 +83,11 @@ ul {
 }
 
 .logo-spin {
-  -webkit-animation: spin 6s linear infinite;
-  -moz-animation: spin 6s linear infinite;
-  -ms-animation: spin 6s linear infinite;
-  -o-animation: spin 6s linear infinite;
-  animation: spin 6s linear infinite;
+  -webkit-animation: spin 9s linear infinite;
+  -moz-animation: spin 9s linear infinite;
+  -ms-animation: spin 9s linear infinite;
+  -o-animation: spin 9s linear infinite;
+  animation: spin 9s linear infinite;
 }
 
 @-webkit-keyframes spin {
@@ -585,16 +585,16 @@ form {
 
   .logo-spin {
     position: absolute;
-    top: -51px;
-    left: -20px;
-    width: 90px; /* adjust as needed */
+    top: -49px;
+    left: -16px;
+    width: 85px; /* adjust as needed */
   }
 
   .logo-still {
     position: absolute;
-    top: -54px;
-    left: -20px;
-    width: 90px; /* adjust as needed */
+    top: -53px;
+    left: -16px;
+    width: 85px; /* adjust as needed */
   }
 
   .nav-links {
