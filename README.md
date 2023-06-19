@@ -25,6 +25,8 @@
 
 In this project, I built my personal portfolio website to showcase my skills, projects, and experience to potential employers and clients.
 
+![Screenshot of the project](/assets/portfolio.gif)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack
