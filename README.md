@@ -78,7 +78,7 @@ You can deploy this project using any hosting platform of your choice.
 
 - GitHub: [@CVILLA09](https://github.com/CVILLA09)
 
-# 👥 Colaborators <a name="colaborators"></a>
+# 🤝 Collaborators <a name="colaborators"></a>
 
 👤 Facundo Malgarini
 
