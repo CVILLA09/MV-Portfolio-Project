@@ -96,6 +96,7 @@ ul {
     -webkit-transform: rotate(360deg);
   }
 }
+
 @-moz-keyframes spin {
   0% {
     -moz-transform: rotate(0deg);
@@ -105,6 +106,7 @@ ul {
     -moz-transform: rotate(360deg);
   }
 }
+
 @-ms-keyframes spin {
   0% {
     -ms-transform: rotate(0deg);
@@ -114,6 +116,7 @@ ul {
     -ms-transform: rotate(360deg);
   }
 }
+
 @-o-keyframes spin {
   0% {
     -o-transform: rotate(0deg);
@@ -123,6 +126,7 @@ ul {
     -o-transform: rotate(360deg);
   }
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -587,14 +591,14 @@ form {
 
   .logo-spin {
     position: absolute;
-    top: -43px;
+    top: -40px;
     left: -10px;
     width: 65px; /* adjust as needed */
   }
 
   .logo-still {
     position: absolute;
-    top: -47px;
+    top: -44px;
     left: -10px;
     width: 65px; /* adjust as needed */
   }
