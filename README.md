@@ -23,7 +23,9 @@
 
 # 📖 Portfolio Project <a name="about-project"></a>
 
-In this project, I will be building my personal portfolio website. The goal is to showcase my skills, projects, and experience to potential employers and clients. This project will help me apply what I've learned in previous steps and demonstrate my ability to create a professional web presence.
+In this project, I built my personal portfolio website to showcase my skills, projects, and experience to potential employers and clients.
+
+![Screenshot of the project](/assets/portfolio.gif)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -40,7 +42,7 @@ In this project, I will be building my personal portfolio website. The goal is t
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-The project is not live yet.
+[View Live Demo](https://cvilla09.github.io/Portfolio/)
 
 # 💻 Getting Started <a name="getting-started"></a>
 
@@ -76,12 +78,11 @@ You can deploy this project using any hosting platform of your choice.
 
 - GitHub: [@CVILLA09](https://github.com/CVILLA09)
 
-# 👥 Colaborators <a name="colaborators"></a>
+# 🤝 Collaborators <a name="colaborators"></a>
 
 👤 Facundo Malgarini
 
 - GitHub: [@fmalgarini](https://github.com/fmalgarini)
-
 
 # 🔭 Future Features <a name="future-features"></a>
 
@@ -102,4 +103,5 @@ If you find this project helpful or interesting, show your support by giving it 
 We acknowledge the guidance and support from the Microverse community.
 
 # 📝 License <a name="license"></a>
+
 This project is [MIT licensed](LICENSE.md).
