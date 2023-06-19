@@ -70,24 +70,21 @@ ul {
 
 .logo-spin {
   position: absolute;
-  top: -33px;
+  top: -28px;
   left: -12px;
-  width: 60px; /* adjust as needed */
-}
-
-.logo-still {
-  position: absolute;
-  top: -35px;
-  left: -12px;
-  width: 60px; /* adjust as needed */
-}
-
-.logo-spin {
+  width: 40px; /* adjust as needed */
   -webkit-animation: spin 9s linear infinite;
   -moz-animation: spin 9s linear infinite;
   -ms-animation: spin 9s linear infinite;
   -o-animation: spin 9s linear infinite;
   animation: spin 9s linear infinite;
+}
+
+.logo-still {
+  position: absolute;
+  top: -30px;
+  left: -12px;
+  width: 40px; /* adjust as needed */
 }
 
 @-webkit-keyframes spin {
@@ -590,16 +587,16 @@ form {
 
   .logo-spin {
     position: absolute;
-    top: -49px;
-    left: -16px;
-    width: 85px; /* adjust as needed */
+    top: -43px;
+    left: -10px;
+    width: 65px; /* adjust as needed */
   }
 
   .logo-still {
     position: absolute;
-    top: -53px;
-    left: -16px;
-    width: 85px; /* adjust as needed */
+    top: -47px;
+    left: -10px;
+    width: 65px; /* adjust as needed */
   }
 
   .nav-links {
