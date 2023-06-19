@@ -56,7 +56,7 @@ ul {
 }
 
 .brand-logo {
-  margin-left: 24px;
+  margin-left: 18px;
 }
 
 .brand-logo a {
@@ -64,6 +64,77 @@ ul {
   font-size: 18px;
   line-height: 20px;
   color: var(--blue);
+  position: relative;
+  display: inline-block;
+}
+
+.logo-spin {
+  position: absolute;
+  top: -28px;
+  left: -12px;
+  width: 40px; /* adjust as needed */
+  -webkit-animation: spin 9s linear infinite;
+  -moz-animation: spin 9s linear infinite;
+  -ms-animation: spin 9s linear infinite;
+  -o-animation: spin 9s linear infinite;
+  animation: spin 9s linear infinite;
+}
+
+.logo-still {
+  position: absolute;
+  top: -30px;
+  left: -12px;
+  width: 40px; /* adjust as needed */
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .menu-icon {
@@ -84,6 +155,22 @@ ul {
   background-size: 100%;
   background-position-y: 20%;
   background-repeat: no-repeat;
+}
+
+.headline,
+.subtext,
+.connect-btn,
+.social-icons {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInMoveUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInMoveUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .intro-section h1 {
@@ -499,7 +586,21 @@ form {
   }
 
   .brand-logo {
-    margin: 0 16vw 0 0;
+    margin: 0 10vw 0 0;
+  }
+
+  .logo-spin {
+    position: absolute;
+    top: -40px;
+    left: -10px;
+    width: 65px; /* adjust as needed */
+  }
+
+  .logo-still {
+    position: absolute;
+    top: -44px;
+    left: -10px;
+    width: 65px; /* adjust as needed */
   }
 
   .nav-links {
@@ -564,6 +665,23 @@ form {
 
   .project-img img {
     width: calc(35vw - 1em);
+  }
+
+  .project-img-1,
+  .project-img-2 {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+
+  .project-img-1:hover {
+    transform: rotate(5deg);
+    opacity: 0.8;
+  }
+
+  .project-img-2:hover {
+    transform: rotate(-5deg);
+    opacity: 0.8;
   }
 
   .project-content {
@@ -685,6 +803,25 @@ form {
     height: 48px;
     left: calc(50% - 48px / 2 - 20px);
     top: 12px;
+    transition: all 0.5s ease;
+  }
+
+  .language-image:hover {
+    animation: bounce 0.5s;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
   }
 
   .title-container1 {
