@@ -78,11 +78,6 @@ You can deploy this project using any hosting platform of your choice.
 
 - GitHub: [@CVILLA09](https://github.com/CVILLA09)
 
-# 🤝 Collaborators <a name="colaborators"></a>
-
-👤 Facundo Malgarini
-
-- GitHub: [@fmalgarini](https://github.com/fmalgarini)
 
 # 🔭 Future Features <a name="future-features"></a>
 
@@ -92,7 +87,17 @@ You can deploy this project using any hosting platform of your choice.
 
 # 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+👤 Facundo Malgarini
+
+- GitHub: [@fmalgarini](https://github.com/fmalgarini)
+
+ 👤 Abdul Salam Abro
+
+- GitHub: [@AbdulSalamAbro](https://github.com/AbdulSalamAbro)
+
+👤 Zabihullah Noori 
+
+- GitHub: [@ZabihullahNooriWardak](https://github.com/ZabihullahNooriWardak) 
 
 # ⭐️ Show your support <a name="show-your-support"></a>
 
