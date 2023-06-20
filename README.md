@@ -93,11 +93,11 @@ You can deploy this project using any hosting platform of your choice.
 
  👤 Abdul Salam Abro
 
-- GitHub: [@fmalgarini](https://github.com/AbdulSalamAbro)
+- GitHub: [@AbdulSalamAbro](https://github.com/AbdulSalamAbro)
 
 👤 Zabihullah Noori 
 
-- GitHub: [@fmalgarini](https://github.com/ZabihullahNooriWardak) 
+- GitHub: [@ZabihullahNooriWardak](https://github.com/ZabihullahNooriWardak) 
 
 # ⭐️ Show your support <a name="show-your-support"></a>
 
