@@ -27,6 +27,9 @@ In this project, I built my personal portfolio website to showcase my skills, pr
 
 ![Screenshot of the project](/assets/portfolio.gif)
 
+![Video presentation](https://www.loom.com/share/c9ceef86333c493fb0c8f006360c6429))
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack
