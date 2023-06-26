@@ -20,12 +20,14 @@
 - [⭐️ Show your support](#show-your-support)
 - [🙏 Acknowledgments](#acknowledgements)
 - [📝 License](#license)
+- [👁️ Watch the video](#video)
 
 # 📖 Portfolio Project <a name="about-project"></a>
 
 In this project, I built my personal portfolio website to showcase my skills, projects, and experience to potential employers and clients.
 
 ![Screenshot of the project](/assets/portfolio.gif)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,11 +80,6 @@ You can deploy this project using any hosting platform of your choice.
 
 - GitHub: [@CVILLA09](https://github.com/CVILLA09)
 
-# 🤝 Collaborators <a name="colaborators"></a>
-
-👤 Facundo Malgarini
-
-- GitHub: [@fmalgarini](https://github.com/fmalgarini)
 
 # 🔭 Future Features <a name="future-features"></a>
 
@@ -92,7 +89,17 @@ You can deploy this project using any hosting platform of your choice.
 
 # 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+👤 Facundo Malgarini
+
+- GitHub: [@fmalgarini](https://github.com/fmalgarini)
+
+ 👤 Abdul Salam Abro
+
+- GitHub: [@AbdulSalamAbro](https://github.com/AbdulSalamAbro)
+
+👤 Zabihullah Noori 
+
+- GitHub: [@ZabihullahNooriWardak](https://github.com/ZabihullahNooriWardak) 
 
 # ⭐️ Show your support <a name="show-your-support"></a>
 
@@ -105,3 +112,7 @@ We acknowledge the guidance and support from the Microverse community.
 # 📝 License <a name="license"></a>
 
 This project is [MIT licensed](LICENSE.md).
+
+# 👁️ Watch the video <a name="video"></a>
+
+[![Watch the video](https://cdn.loom.com/sessions/thumbnails/c9ceef86333c493fb0c8f006360c6429-with-play.gif)](https://www.loom.com/share/c9ceef86333c493fb0c8f006360c6429)
