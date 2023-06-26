@@ -149,12 +149,7 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    50,
-    70,
-    255,
-    0.8
-  ); /* Semi-transparent black background */
+  background-color: rgba(50, 70, 255, 0.8);
   backdrop-filter: blur(10px); /* Apply a blur effect to the backdrop */
   z-index: 9999; /* On top of other content */
   padding: 86px 28px; /* Updated padding */
@@ -203,11 +198,6 @@ ul {
 #close-icon img {
   width: 20px;
   height: 20px;
-}
-
-/* Mobile Menu - Visible */
-#mobile-menu.visible {
-  display: block;
 }
 
 /* Mobile Menu - Visible */
