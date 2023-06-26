@@ -176,7 +176,7 @@ ul {
   flex-shrink: 0;
   color: #fff; /* White text */
   font-size: 32px;
-  font-family: Poppins;
+  font-family: var(--main-font);
   font-weight: 600;
   line-height: 44px;
   text-decoration: none;
