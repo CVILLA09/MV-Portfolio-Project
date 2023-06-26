@@ -802,7 +802,7 @@ form {
     position: relative;
     width: 100%;
     margin-left: 11vw;
-    min-width: fit-content;
+    min-width: max-content;
     max-width: 60%;
   }
 
