@@ -1,84 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <title>Personal Portfolio Website</title>
-  </head>
-  <body>
- <!-- Main navigation bar or toolbar -->
-<header class="main-nav">
-  <div class="brand-logo">
-    <a href="#">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <title>Personal Portfolio Website</title>
+</head>
+
+<body>
+  <!-- Main navigation bar or toolbar -->
+  <header class="main-nav">
+    <div class="brand-logo">
+      <a href="#">
         <img class="logo-spin" src="assets/name-circle-r.svg" alt="Spinning Logo">
         <img class="logo-still" src="assets/SMILE0.svg" alt="Still Logo">
-    </a>
-  </div>    
-  <nav>
-    <!-- Navigation menu with links to different sections of the page -->
-    <div class="nav-menu">
-      <button type="button" class="menu-icon" id="hamburger-icon"><img src="assets/icon-hamburger.svg" alt="Menu icon"></button>
-      <ul class="nav-links">
-        <li><a>Portfolio</a></li>
-        <li><a>About</a></li>
-        <li><a>Contact</a></li>
-      </ul>
+      </a>
     </div>
+    <nav>
+      <!-- Navigation menu with links to different sections of the page -->
+      <div class="nav-menu">
+        <button type="button" class="menu-icon" id="hamburger-icon"><img src="assets/icon-hamburger.svg"
+            alt="Menu icon"></button>
+        <ul class="nav-links">
+          <li><a href="project-section">Portfolio</a></li>
+          <li><a href="about-section">About</a></li>
+          <li><a href="Contact">Contact</a></li>
+        </ul>
+      </div>
 
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden">
-      <!-- Close icon -->
-      <button type="button" id="close-icon"><img src="assets/icon-close.svg" alt="Close icon"></button>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden">
+        <!-- Close icon -->
+        <button type="button" id="close-icon"><img src="assets/icon-close.svg" alt="Close icon"></button>
 
-      <!-- Menu items -->
-      <ul>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-</header>
-    <!-- Headline Section -->
-    <section class="intro-section">
-      <h1 class="headline">I’m Cristian.<br>Glad to see you!</h1>
-      <p class="subtext">I’m a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-      <a class="connect-btn">LET'S CONNECT</a>
-      <ul class="social-icons">
-        <li><a href=""><img src="assets/twitter.svg" alt="Cristian's Twitter" class="social-icon"></a></li>
-        <li><a href=""><img src="assets/linkedin.svg" alt="Cristian's LinkedIn" class="social-icon"></a></li>
-        <li><a href=""><img src="assets/medium.svg" alt="Cristian's Medium" class="social-icon"></a></li>
-        <li><a href=""><img src="assets/github.svg" alt="Cristian's GitHub" class="social-icon"></a></li>
-        <li><a href=""><img src="assets/angel.svg" alt="Cristian's Angelist" class="social-icon"></a></li>
-      </ul>
-    </section>
-<!-- Projects Section -->
-<section class="project-section" aria-label="Projects">
+        <!-- Menu items -->
+        <ul>
+          <li><a href="#project-section">Portfolio</a></li>
+          <li><a href="#about-section">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- Headline Section -->
+  <section class="intro-section">
+    <h1 class="headline">I’m Cristian.<br>Glad to see you!</h1>
+    <p class="subtext">I’m a software developer! I can help you build a product, feature, or website. Look through some
+      of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact
+      me.</p>
+    <a class="connect-btn">LET'S CONNECT</a>
+    <ul class="social-icons">
+      <li><a href=""><img src="assets/twitter.svg" alt="Cristian's Twitter" class="social-icon"></a></li>
+      <li><a href=""><img src="assets/linkedin.svg" alt="Cristian's LinkedIn" class="social-icon"></a></li>
+      <li><a href=""><img src="assets/medium.svg" alt="Cristian's Medium" class="social-icon"></a></li>
+      <li><a href=""><img src="assets/github.svg" alt="Cristian's GitHub" class="social-icon"></a></li>
+      <li><a href=""><img src="assets/angel.svg" alt="Cristian's Angelist" class="social-icon"></a></li>
+    </ul>
+  </section>
+  <!-- Projects Section -->
+  <section class="project-section" aria-label="Projects" id="project-section">
     <!-- 1st project card -->
-    <article class="project-card"> 
-      <div class="project-img"> 
+    <article class="project-card">
+      <div class="project-img">
         <img class="project-img-1" src="assets/Snapshoot Portfolio-1.svg" alt="Screenshot of Project 1">
       </div>
-      <div class="project-content"> 
+      <div class="project-content">
         <h2>Tonic</h2>
         <div class="project-info">
           <h3>CANOPY</h3>
           <p>Back End Dev</p>
           <p>2015</p>
         </div>
-        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups
+          required.</p>
         <ul class="project-tags">
           <li><a href="#">HTML</a></li>
           <li><a href="#">CSS</a></li>
-          <li><a href="#">JavaScript</a></li> 
+          <li><a href="#">JavaScript</a></li>
         </ul>
         <button type="button" class="project-btn">See Project</button>
       </div>
     </article>
-     <!-- 2nd project card -->
-    <article class="project-card right"> 
+    <!-- 2nd project card -->
+    <article class="project-card right">
       <div class="project-img">
         <img class="project-img-2" src="assets/Snapshoot Portfolio-2.svg" alt="Screenshot of Project 2">
       </div>
@@ -89,18 +95,19 @@
           <p>Full Stack Dev</p>
           <p>2015</p>
         </div>
-        <p class="project-description">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+        <p class="project-description">Experimental content creation feature that allows users to add to an existing
+          story over the course of a day without spamming their friends.</p>
         <ul class="project-tags">
-          <li><a href="#">HTML</a></li> 
-          <li class="hide-on-mobile"><a href="#">Ruby on rails</a></li> 
-          <li><a href="#">CSS</a></li> 
-          <li><a href="#">JavaScript</a></li> 
+          <li><a href="#">HTML</a></li>
+          <li class="hide-on-mobile"><a href="#">Ruby on rails</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
         </ul>
         <button type="button" class="project-btn">See Project</button>
       </div>
     </article>
-     <!-- 3rd project card -->
-    <article class="project-card"> 
+    <!-- 3rd project card -->
+    <article class="project-card">
       <div class="project-img">
         <img class="project-img-1" src="assets/Snapshoot Portfolio-3.svg" alt="Screenshot of Project 3">
       </div>
@@ -111,17 +118,18 @@
           <p>Full Stack Dev</p>
           <p>2015</p>
         </div>
-        <p class="project-description">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+        <p class="project-description">Exploring the future of media in Facebook's first Virtual Reality app; a place to
+          discover and enjoy 360 photos and videos on Gear VR.</p>
         <ul class="project-tags">
-          <li><a href="#">HTML</a></li> 
-          <li class="hide-on-mobile"><a href="#">Ruby on rails</a></li> 
-          <li><a href="#">CSS</a></li> 
-          <li><a href="#">JavaScript</a></li> 
+          <li><a href="#">HTML</a></li>
+          <li class="hide-on-mobile"><a href="#">Ruby on rails</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
         </ul>
         <button type="button" class="project-btn">See Project</button>
       </div>
     </article>
-     <!-- 4th project card -->
+    <!-- 4th project card -->
     <article class="project-card right">
       <div class="project-img">
         <img class="project-img-2" src="assets/Snapshoot Portfolio-4.svg" alt="Screenshot of Project 4">
@@ -133,10 +141,11 @@
           <p>Lead Developer</p>
           <p>2018</p>
         </div>
-        <p class="project-description">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+        <p class="project-description">A smart assistant to make driving more safe, efficient, and fun by unlocking your
+          most expensive computer: your car.</p>
         <ul class="project-tags">
           <li><a href="#">HTML</a></li>
-          <li class="hide-on-mobile"><a href="#">Ruby on rails</a></li> 
+          <li class="hide-on-mobile"><a href="#">Ruby on rails</a></li>
           <li><a href="#">CSS</a></li>
           <li><a href="#">JavaScript</a></li>
         </ul>
@@ -144,145 +153,133 @@
       </div>
     </article>
   </section>
-    <!-- ABOUT SECTION -->
-    <section id="about-section" class="about-section">
-      <article class="about-container">
-          <div class="about-info">
-              <h2 class="about-title">About Myself</h2>
-              <p class="about-description">
-                  Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
-              </p>
-              <a href="#" class="about-connect">LET'S CONNECT</a>
-  
-              <ul class="social-media-list">
-                  <li class="social-media-item">
-                      <a href="https://github.com/CVILLA09"><img src="assets/github.svg" alt="Cristian's GitHub" class="social-icon"></a>
-                  </li>
-                  <li class="social-media-item">
-                      <a href="https://www.linkedin.com/in/cristian-villa-5b518127b/"><img src="assets/linkedin.svg" alt="Cristian's LinkedIn" class="social-icon"></a>
-                  </li>
-                  <li class="social-media-item">
-                      <a><img src="assets/angel.svg" alt="Cristian's Angelist" class="social-icon"></a>
-                  </li>
-                  <li class="social-media-item"> 
-                      <a><img src="assets/twitter.svg" alt="Cristian's Twitter" class="social-icon"></a>
-                  </li>
-                  <li class="social-media-item"> 
-                      <a><img src="assets/medium.svg" alt="Cristian's Medium" class="social-icon"></a>
-                  </li>
-              </ul>
-              <!-- Resume button -->
-              <button type="button" class="resume-button">Get my resume</button>
-          </div>
-           <!-- Skills Section -->
-           <div class="skills-section-wrapper">
-     <ul class="skills-section">
-         <li>
-           <div class="title-container1">
-           <h3 class="skills-title">Languages</h3>
-           <img src="assets/down-arrow.svg" alt="down-arrow-vector" class="skills-image">
-         </div>
-           <ul class="skills-list">
-             <li class="skills-item">
-               <!-- JavaScript -->
-               <div class="language-item">
-                 <div class="language-image-container">
-                   <img class="language-image" src="./assets/js.png" alt="javascript">
-                 </div>
-                 <h2 class="skills-item-title">JavaScript</h2>
-               </div>
-             </li>
-             <li class="skills-item">
-               <!-- HTML -->
-               <div class="language-item">
-                 <div class="language-image-container">
-                   <img src="./assets/html.png" alt="html" class="language-image">
-                 </div>
-                 <h2 class="skills-item-title">HTML</h2>
-               </div>
-             </li>
-             <li class="skills-item">
-               <!-- CSS -->
-               <div class="language-item">
-                 <div class="language-image-container">
-                   <img src="assets/css.png" alt="css" class="language-image">
-                 </div>
-                 <h2 class="skills-item-title">CSS</h2>
-               </div>
-             </li>
-           </ul>
-         </li>
-         <li>
-              <div class="title-container">
-           <h3 class="skills-title">Frameworks</h3>
-           <ul class="skills-container">
-               <div class="skills-image-container">
-                 <img src="assets/arrow.svg" alt="arrow-vector" class="arrow-image">
-               </div>
-           </ul>
-           </div>
-         </li>
-         <li>
-         <div class="title-container">
-           <h3 class="skills-title">Skills</h3>
-           <ul class="skills-container">
-             <li>
-               <div class="skills-image-container">
-                 <img src="assets/arrow.svg" alt="arrow-vector" class="arrow-image">
-               </div>
-             </li>
-           </ul>
-           </div>
-         </li>
-       </ul>
+  <!-- ABOUT SECTION -->
+  <section id="about-section" class="about-section">
+    <article class="about-container">
+      <div class="about-info">
+        <h2 class="about-title">About Myself</h2>
+        <p class="about-description">
+          Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my
+          work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
+        </p>
+        <a href="#" class="about-connect">LET'S CONNECT</a>
+
+        <ul class="social-media-list">
+          <li class="social-media-item">
+            <a href="https://github.com/CVILLA09"><img src="assets/github.svg" alt="Cristian's GitHub"
+                class="social-icon"></a>
+          </li>
+          <li class="social-media-item">
+            <a href="https://www.linkedin.com/in/cristian-villa-5b518127b/"><img src="assets/linkedin.svg"
+                alt="Cristian's LinkedIn" class="social-icon"></a>
+          </li>
+          <li class="social-media-item">
+            <a><img src="assets/angel.svg" alt="Cristian's Angelist" class="social-icon"></a>
+          </li>
+          <li class="social-media-item">
+            <a><img src="assets/twitter.svg" alt="Cristian's Twitter" class="social-icon"></a>
+          </li>
+          <li class="social-media-item">
+            <a><img src="assets/medium.svg" alt="Cristian's Medium" class="social-icon"></a>
+          </li>
+        </ul>
+        <!-- Resume button -->
+        <button type="button" class="resume-button">Get my resume</button>
       </div>
-     </article>
-   </section>
-<!-- Contact form section -->
-<footer class="contact-section" id="Contact">
- <div class="contact-container">
-   <div class="form-container">
-     <h2>
-      Contact me
-    </h2>
-     <p>
-      If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-      I'd love to help with it!
-    </p> 
-    <form action="https://formspree.io/f/xoqzgjae" method="POST">
-    <label for="fullname" class="labels">Full name</label>
-    <input 
-      type="text"
-      class="input-field"
-      placeholder="Full name"
-      maxlength="30"
-      name="fullname"
-      id="fullname"
-      required>
-    <label for="email" class="labels">Email address</label>
-    <input 
-      type="email"
-      class="input-field"
-      placeholder="Email address"
-      name="email"
-      id="email"
-      required>
-    <label for="comment" class="labels">Comment</label>
-     <textarea type="text"
-      class="textarea-field"
-      placeholder="Write your message here..."
-      maxlength="500"
-      name="comment"
-      id="comment"
-      required></textarea>
-     <button type="submit" class="button-form">
-     Get in touch
-     </button>
-    </form>
-   </div>
- </div>
-</footer>
-   <!-- END -->
-    <script src="script.js"></script>
-  </body>
+      <!-- Skills Section -->
+      <div class="skills-section-wrapper">
+        <ul class="skills-section">
+          <li>
+            <div class="title-container1">
+              <h3 class="skills-title">Languages</h3>
+              <img src="assets/down-arrow.svg" alt="down-arrow-vector" class="skills-image">
+            </div>
+            <ul class="skills-list">
+              <li class="skills-item">
+                <!-- JavaScript -->
+                <div class="language-item">
+                  <div class="language-image-container">
+                    <img class="language-image" src="./assets/js.png" alt="javascript">
+                  </div>
+                  <h2 class="skills-item-title">JavaScript</h2>
+                </div>
+              </li>
+              <li class="skills-item">
+                <!-- HTML -->
+                <div class="language-item">
+                  <div class="language-image-container">
+                    <img src="./assets/html.png" alt="html" class="language-image">
+                  </div>
+                  <h2 class="skills-item-title">HTML</h2>
+                </div>
+              </li>
+              <li class="skills-item">
+                <!-- CSS -->
+                <div class="language-item">
+                  <div class="language-image-container">
+                    <img src="assets/css.png" alt="css" class="language-image">
+                  </div>
+                  <h2 class="skills-item-title">CSS</h2>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="title-container">
+              <h3 class="skills-title">Frameworks</h3>
+              <ul class="skills-container">
+                <div class="skills-image-container">
+                  <img src="assets/arrow.svg" alt="arrow-vector" class="arrow-image">
+                </div>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="title-container">
+              <h3 class="skills-title">Skills</h3>
+              <ul class="skills-container">
+                <li>
+                  <div class="skills-image-container">
+                    <img src="assets/arrow.svg" alt="arrow-vector" class="arrow-image">
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </section>
+  <!-- Contact form section -->
+  <footer class="contact-section" id="Contact">
+    <div class="contact-container">
+      <div class="form-container">
+        <h2>
+          Contact me
+        </h2>
+        <p>
+          If you have an application you are interested in developing, a feature that you need built or a project that
+          needs coding.
+          I'd love to help with it!
+        </p>
+        <form action="https://formspree.io/f/xoqzgjae" method="POST">
+          <label for="fullname" class="labels">Full name</label>
+          <input type="text" class="input-field" placeholder="Full name" maxlength="30" name="fullname" id="fullname"
+            required>
+          <label for="email" class="labels">Email address</label>
+          <input type="email" class="input-field" placeholder="Email address" name="email" id="email" required>
+          <label for="comment" class="labels">Comment</label>
+          <textarea type="text" class="textarea-field" placeholder="Write your message here..." maxlength="500"
+            name="comment" id="comment" required></textarea>
+          <button type="submit" class="button-form">
+            Get in touch
+          </button>
+        </form>
+      </div>
+    </div>
+  </footer>
+  <!-- END -->
+  <script src="script.js"></script>
+</body>
+
 </html>
