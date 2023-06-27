@@ -28,7 +28,6 @@ In this project, I built my personal portfolio website to showcase my skills, pr
 
 ![Screenshot of the project](/assets/portfolio.gif)
 
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack
@@ -80,7 +79,6 @@ You can deploy this project using any hosting platform of your choice.
 
 - GitHub: [@CVILLA09](https://github.com/CVILLA09)
 
-
 # 🔭 Future Features <a name="future-features"></a>
 
 - Add project sections to showcase individual projects with descriptions and images.
@@ -93,13 +91,13 @@ You can deploy this project using any hosting platform of your choice.
 
 - GitHub: [@fmalgarini](https://github.com/fmalgarini)
 
- 👤 Abdul Salam Abro
+👤 Abdul Salam Abro
 
 - GitHub: [@AbdulSalamAbro](https://github.com/AbdulSalamAbro)
 
-👤 Zabihullah Noori 
+👤 Zabihullah Noori
 
-- GitHub: [@ZabihullahNooriWardak](https://github.com/ZabihullahNooriWardak) 
+- GitHub: [@ZabihullahNooriWardak](https://github.com/ZabihullahNooriWardak)
 
 # ⭐️ Show your support <a name="show-your-support"></a>
 

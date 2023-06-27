@@ -72,7 +72,7 @@ ul {
   position: absolute;
   top: -28px;
   left: -12px;
-  width: 40px; /* adjust as needed */
+  width: 40px;
   -webkit-animation: spin 9s linear infinite;
   -moz-animation: spin 9s linear infinite;
   -ms-animation: spin 9s linear infinite;
@@ -84,7 +84,7 @@ ul {
   position: absolute;
   top: -30px;
   left: -12px;
-  width: 40px; /* adjust as needed */
+  width: 40px;
 }
 
 @-webkit-keyframes spin {
@@ -155,22 +155,6 @@ ul {
   background-size: 100%;
   background-position-y: 20%;
   background-repeat: no-repeat;
-}
-
-.headline,
-.subtext,
-.connect-btn,
-.social-icons {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInMoveUp 0.8s ease-out forwards;
-}
-
-@keyframes fadeInMoveUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .intro-section h1 {
@@ -357,8 +341,8 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #dfe1e6; /* Adjust the color and size as needed */
-  padding-bottom: 2.5px; /* Adjust as needed */
+  border-bottom: 1px solid #dfe1e6;
+  padding-bottom: 2.5px;
 }
 
 .about-description {
@@ -577,6 +561,70 @@ form {
   border-color: #2230d2;
 }
 
+/* Mobile Menu */
+#mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 70, 255, 0.8);
+  backdrop-filter: blur(10px);
+  z-index: 9999;
+  padding: 86px 28px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+#mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#mobile-menu ul li {
+  margin-bottom: 50px;
+}
+
+#mobile-menu ul li a {
+  display: flex;
+  width: 251px;
+  height: 24px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+  font-size: 32px;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 44px;
+  text-decoration: none;
+  z-index: 1111111;
+}
+
+/* Close Icon */
+#close-icon {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+#close-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Mobile Menu - Visible */
+#mobile-menu.visible {
+  display: block;
+}
+
 /* Desktop Version */
 @media (min-width: 768px) {
   /* Navigation bar */
@@ -593,14 +641,14 @@ form {
     position: absolute;
     top: -40px;
     left: -10px;
-    width: 65px; /* adjust as needed */
+    width: 65px;
   }
 
   .logo-still {
     position: absolute;
     top: -44px;
     left: -10px;
-    width: 65px; /* adjust as needed */
+    width: 65px;
   }
 
   .nav-links {
@@ -621,8 +669,8 @@ form {
     background-size: contain;
     background-position: center;
     margin-top: 10vh;
-    padding: 16vw 18vw 12vw 16vw; /* Top, Right, Down, Left */
-    height: 916px; /* Adjust this value */
+    padding: 16vw 18vw 12vw 16vw;
+    height: 916px;
     display: flex;
     justify-content: center;
   }
@@ -744,8 +792,8 @@ form {
   }
 
   .skills-section-wrapper {
-    width: 100vw; /* Set the width to 100% of the viewport width */
-    margin-right: 0; /* Remove the right margin */
+    width: 100vw;
+    margin-right: 0;
     padding-top: 1%;
   }
 
@@ -754,7 +802,7 @@ form {
     position: relative;
     width: 100%;
     margin-left: 11vw;
-    min-width: fit-content;
+    min-width: max-content;
     max-width: 60%;
   }
 
@@ -829,19 +877,19 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2.5px; /* Adjust as needed */
-    position: relative; /* Add this line */
+    padding-bottom: 2.5px;
+    position: relative;
   }
 
   .title-container {
-    width: 100%; /* Adjust the width directly */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2.5px; /* Adjust as needed */
-    position: relative; /* Add this line */
+    padding-bottom: 2.5px;
+    position: relative;
     border-image: url("assets/Separator\ Bottom@2x.png") 1 stretch;
-    flex-basis: 100%; /* adjust this value as needed */
+    flex-basis: 100%;
     border-bottom-width: 1px;
   }
 
