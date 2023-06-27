@@ -792,13 +792,8 @@ form {
   }
 
   .skills-section-wrapper {
-<<<<<<< HEAD
     width: 100vw;
     margin-right: 0;
-=======
-    width: 100vw; 
-    margin-right: 0; 
->>>>>>> temp-branch
     padding-top: 1%;
   }
 
@@ -882,13 +877,8 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     padding-bottom: 2.5px;
     position: relative;
-=======
-    padding-bottom: 2.5px; 
-    position: relative; 
->>>>>>> temp-branch
   }
 
   .title-container {
@@ -896,17 +886,10 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-<<<<<<< HEAD
     padding-bottom: 2.5px;
     position: relative;
     border-image: url("assets/Separator\ Bottom@2x.png") 1 stretch;
     flex-basis: 100%;
-=======
-    padding-bottom: 2.5px; 
-    position: relative; 
-    border-image: url("assets/Separator\ Bottom@2x.png") 1 stretch;
-    flex-basis: 100%; 
->>>>>>> temp-branch
     border-bottom-width: 1px;
   }
 
