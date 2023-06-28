@@ -3,21 +3,26 @@ const hamburgerIcon = document.getElementById('hamburger-icon');
 const closeIcon = document.getElementById('close-icon');
 const mobileMenu = document.getElementById('mobile-menu');
 const menuLinks = mobileMenu.getElementsByTagName('a');
+
 // Function to show mobile menu
 function showMobileMenu() {
   mobileMenu.classList.add('visible');
 }
+
 // Function to hide mobile menu
 function hideMobileMenu() {
   mobileMenu.classList.remove('visible');
 }
+
 // Add event listeners
 hamburgerIcon.addEventListener('click', showMobileMenu);
 closeIcon.addEventListener('click', hideMobileMenu);
+
 // Add event listeners to menu links
 for (let i = 0; i < menuLinks.length; i += 1) {
   menuLinks[i].addEventListener('click', hideMobileMenu);
 }
+
 // Project cards settings
 const cards = [
   {
@@ -81,6 +86,7 @@ const cards = [
       framework: 'Bootstrap'
   }
 ]
+
 // SHOW THE CARDS
 const showCard = () => {
   const cardContainer = document.querySelector('.work-section')
@@ -90,7 +96,7 @@ const showCard = () => {
       article.innerHTML =
       `
       <figure class="work-image-container multi">
-      <img src="${card.img}" alt="${card.alt}" class="work-image">
+      <img src="${card.img}" alt="${card.alt}" class="work-image"> 
       </figure>
       <div class="work-features-container">
       <h2 class="work-title">${card.name}</h2>
@@ -113,12 +119,15 @@ const showCard = () => {
   })
 }
 showCard()
+
+
 // WINDOW POPUP SETTINGS
 const popupModal = document.getElementById('popupModal')
 const popupDescription = document.querySelector('.popup-description')
 const navbarSection = document.querySelector('.main-nav')
 const workSection = document.querySelector('.work-section')
 const workBtn = document.querySelectorAll('.work-button')
+
 const createPopup = (ind) => {
     const work = cards[ind]
     const {
@@ -135,12 +144,13 @@ const createPopup = (ind) => {
         language4,
         framework
     } = work
+
     const article = document.createElement('article')
     article.classList.add('popup-description')
-    article.innerHTML =
+    article.innerHTML = 
     `
     <header class="popup-header">
-        <h2 class="popup-title">${name}</h2>
+        <h2 class="popup-title">${name}</h2> 
         <img src="assets/Cancel.svg" alt="Close Icon" class="popup-close">
     </header>
     <ul class="popup-features">
@@ -149,7 +159,7 @@ const createPopup = (ind) => {
         <li class="popup-features-item">${feature3}</li>
     </ul>
     <figure class="popup-image-container multi">
-        <img src="${img}" alt="${alt}" class="popup-image">
+        <img src="${img}" alt="${alt}" class="popup-image"> 
     </figure>
     <div class="popup-features-container">
         <p class="popup-paragraph">${description}</p>
@@ -173,11 +183,13 @@ const createPopup = (ind) => {
                     <img src="assets/gitcat.svg" alt="Circle Arrow">
                 </button>
             </div>
-        </div>
+        </div>    
     </div>
     `
     popupModal.appendChild(article)
+
     document.body.style.overflow = 'hidden'
+    
     const closePopup = document.querySelector('.popup-close')
     closePopup.addEventListener('click', ()=> {
         workSection.classList.remove('blurEffect')
@@ -189,7 +201,8 @@ const createPopup = (ind) => {
         })
     })
 }
-// WORK BUTTON
+
+// WORK BUTTON    
 workBtn.forEach((btn) => {
     btn.addEventListener('click', (e) => {
         btn.classList.toggle('press')
