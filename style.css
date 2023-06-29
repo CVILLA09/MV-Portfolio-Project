@@ -717,8 +717,8 @@ form {
 }
 
 .error-icon {
-  width: 25px; 
-  height: 25px; 
+  width: 25px;
+  height: 25px;
   margin-top: 2vh;
 }
 
@@ -1256,12 +1256,11 @@ form {
     margin-bottom: 5vh;
     width: 50vw;
   }
-  
+
   .error-icon {
     display: flex;
     margin-top: 1vh;
     width: 30vw;
     height: 5vh;
   }
-
 }
