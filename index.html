@@ -13,18 +13,19 @@
   <!-- Main navigation bar or toolbar -->
   <header class="main-nav">
     <div class="brand-logo">
-      <a href="#about-section">
+      <a href="#portfolio">
         <img class="logo-spin" src="assets/name-circle-r.svg" alt="Spinning Logo">
         <img class="logo-still" src="assets/SMILE0.svg" alt="Still Logo">
       </a>
     </div>
     <nav>
+
       <!-- Navigation menu with links to different sections of the page -->
       <div class="nav-menu">
         <button type="button" class="menu-icon" id="hamburger-icon"><img src="assets/icon-hamburger.svg"
             alt="Menu icon"></button>
         <ul class="nav-links">
-          <li><a href="#project-section">Portfolio</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about-section">About</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
@@ -37,13 +38,14 @@
 
         <!-- Menu items -->
         <ul>
-          <li><a href="#project-section">Portfolio</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about-section">About</a></li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
       </div>
     </nav>
   </header>
+
   <!-- Headline Section -->
   <section class="intro-section">
     <h1 class="headline">I’m Cristian.<br>Glad to see you!</h1>
@@ -64,100 +66,14 @@
             class="social-icon"></a></li>
     </ul>
   </section>
-  <!-- Projects Section -->
-  <section class="project-section" aria-label="Projects" id="project-section">
-    <!-- 1st project card -->
-    <article class="project-card">
-      <div class="project-img">
-        <img class="project-img-1" src="assets/Snapshoot Portfolio-1.svg" alt="Screenshot of Project 1">
-      </div>
-      <div class="project-content">
-        <h2>Tonic</h2>
-        <div class="project-info">
-          <h3>CANOPY</h3>
-          <p>Back End Dev</p>
-          <p>2015</p>
-        </div>
-        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups
-          required.</p>
-        <ul class="project-tags">
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">JavaScript</a></li>
-        </ul>
-        <button type="button" class="project-btn">See Project</button>
-      </div>
-    </article>
-    <!-- 2nd project card -->
-    <article class="project-card right">
-      <div class="project-img">
-        <img class="project-img-2" src="assets/Snapshoot Portfolio-2.svg" alt="Screenshot of Project 2">
-      </div>
-      <div class="project-content">
-        <h2>Multi-Post Stories</h2>
-        <div class="project-info">
-          <h3>FACEBOOK</h3>
-          <p>Full Stack Dev</p>
-          <p>2015</p>
-        </div>
-        <p class="project-description">Experimental content creation feature that allows users to add to an existing
-          story over the course of a day without spamming their friends.</p>
-        <ul class="project-tags">
-          <li><a href="#">HTML</a></li>
-          <li class="hide-on-mobile"><a href="#">Ruby on rails</a></li>
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">JavaScript</a></li>
-        </ul>
-        <button type="button" class="project-btn">See Project</button>
-      </div>
-    </article>
-    <!-- 3rd project card -->
-    <article class="project-card">
-      <div class="project-img">
-        <img class="project-img-1" src="assets/Snapshoot Portfolio-3.svg" alt="Screenshot of Project 3">
-      </div>
-      <div class="project-content">
-        <h2>FACEBOOK 360</h2>
-        <div class="project-info">
-          <h3>FACEBOOK</h3>
-          <p>Full Stack Dev</p>
-          <p>2015</p>
-        </div>
-        <p class="project-description">Exploring the future of media in Facebook's first Virtual Reality app; a place to
-          discover and enjoy 360 photos and videos on Gear VR.</p>
-        <ul class="project-tags">
-          <li><a href="#">HTML</a></li>
-          <li class="hide-on-mobile"><a href="#">Ruby on rails</a></li>
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">JavaScript</a></li>
-        </ul>
-        <button type="button" class="project-btn">See Project</button>
-      </div>
-    </article>
-    <!-- 4th project card -->
-    <article class="project-card right">
-      <div class="project-img">
-        <img class="project-img-2" src="assets/Snapshoot Portfolio-4.svg" alt="Screenshot of Project 4">
-      </div>
-      <div class="project-content">
-        <h2>Uber Navigation</h2>
-        <div class="project-info">
-          <h3>Uber</h3>
-          <p>Lead Developer</p>
-          <p>2018</p>
-        </div>
-        <p class="project-description">A smart assistant to make driving more safe, efficient, and fun by unlocking your
-          most expensive computer: your car.</p>
-        <ul class="project-tags">
-          <li><a href="#">HTML</a></li>
-          <li class="hide-on-mobile"><a href="#">Ruby on rails</a></li>
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">JavaScript</a></li>
-        </ul>
-        <button type="button" class="project-btn">See Project</button>
-      </div>
-    </article>
+
+  <!-- WORKS SECTION -->
+  <section id="portfolio" class="work-section"></section>
+  <!-- POPUP/MODAL -->
+  <section id="popupModal" class="work-modal">
+
   </section>
+
   <!-- ABOUT SECTION -->
   <section id="about-section" class="about-section">
     <article class="about-container">
@@ -287,6 +203,8 @@
     </div>
   </footer>
   <!-- END -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
   <script src="script.js"></script>
 </body>
 
