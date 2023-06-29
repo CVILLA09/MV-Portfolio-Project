@@ -208,3 +208,17 @@ workBtn.forEach((btn) => {
     navbarSection.style.display = 'none';
   });
 });
+
+// Validation contact form
+const form = document.querySelector('form');
+const emailInput = document.querySelector('#email');
+const emailError = document.querySelector('#emailError');
+const alertIcon = '<img class="error-icon" src="assets/alert.svg" alt="alert icon">';
+form.addEventListener('submit', function(event) {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    event.preventDefault();
+    emailError.innerHTML = `${alertIcon}Oops! Uppercase email alert! Lowercase, please!${alertIcon}`;
+  } else {
+    emailError.textContent = '';
+  }
+});
