@@ -9,7 +9,7 @@
 
 :root {
   --white: #fff;
-  --main-font: Poppins, sans-serif;
+  --main-font: poppins, sans-serif;
   --button-color: #396df2;
   --main-background: #e5e5e5;
   --primaryColor: #172b4d;
@@ -193,7 +193,6 @@ ul {
 .social-icons li {
   padding-right: 18px;
 }
-
 
 /* WORKS SECTION */
 .work-section {
@@ -850,7 +849,6 @@ form {
     margin-top: 2vh;
   }
 
-
   /* WORKS SECTION */
   .work-section {
     row-gap: 10vh; 
@@ -864,10 +862,6 @@ form {
     height: 60vh;
     max-height: 496px;
     width: 100%;
-  }
-
-  .work-description-reverse {
-    flex-direction: row-reverse;
   }
 
   .work-image-container {
@@ -972,13 +966,13 @@ form {
   }
 
   .popup-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 80vw;
     max-width: 1108px;
     max-height: 586px;
     flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .popup-image {
