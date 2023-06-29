@@ -388,13 +388,6 @@ ul {
   font-weight: 400;
 }
 
-.popup-paragraph-desktop {
-  color: var(--secondaryColor);
-  font-size: 15px;
-  font-weight: 400;
-  display: none;
-}
-
 .popup-list-container {
   display: flex;
   gap: 8px;
@@ -451,8 +444,6 @@ ul {
   background: #2230d2;
   color: var(--white);
 }
-
-/* END */
 
 /* ABOUT SECTION */
 .about-section {
@@ -994,6 +985,7 @@ form {
     max-height: 271px;
     flex-direction: column;
     margin-top: 10px;
+    color: var(--secondaryColor);
   }
 
   .popup-bottom-container {
@@ -1048,20 +1040,22 @@ form {
 
   .popup-button {
     display: flex;
-    padding: 8px 25px;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 10px;
+    justify-content: center;
+    padding: 8px 25px;
     border-radius: 8px;
     border: 1px solid var(--thirdColor);
-    max-width: 142px;
+    width: 150px; 
+    height: 40px;
     text-align: center;
     font-size: 15px;
     font-family: var(--main-font);
     font-weight: 500;
     line-height: 20px;
     margin-top: -7px;
-  }
+    flex-wrap: nowrap; /* Add this line */
+    white-space: nowrap;
+}
 
   /* About Section */
   .about-section {

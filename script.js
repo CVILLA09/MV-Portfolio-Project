@@ -170,14 +170,14 @@ const createPopup = (ind) => {
         <li class="popup-language-item">${framework}</li>
         </ul>
             <div class="about-btn-container">
-                <button class="popup-button">
+                    <a href="https://cvilla09.github.io/Portfolio/" target="_blank" class="popup-button">
                     See live
-                    <img src="assets/circle-arrow.svg" alt="Circle Arrow">
-                </button>
-                <button class="popup-button">
+                    <img src="assets/circle-arrow.svg" alt="Circle Arrow" class="button-icon">
+                    </a>
+                    <a href="https://github.com/CVILLA09/Portfolio" target="_blank" class="popup-button">
                     See source
-                    <img src="assets/gitcat.svg" alt="Circle Arrow">
-                </button>
+                    <img src="assets/gitcat.svg" alt="Github Icon" class="button-icon">
+                    </a>
             </div>
         </div>    
     </div>
