@@ -1055,7 +1055,7 @@ form {
     margin-top: -7px;
     flex-wrap: nowrap; /* Add this line */
     white-space: nowrap;
-}
+  }
 
   /* About Section */
   .about-section {
