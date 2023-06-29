@@ -455,7 +455,7 @@ ul {
 .about-container {
   background-color: var(--white);
   padding: 114px 0;
-  margin-top: 15vh;
+  margin-top: 14vh;
   border-radius: 0 80px 0 0;
 }
 
@@ -702,6 +702,24 @@ form {
   background-color: #2230d2;
   color: white;
   border-color: #2230d2;
+}
+
+.error-message {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  color: var(--white);
+  font-family: var(--main-font);
+  font-weight: lighter;
+  font-size: large;
+  margin-bottom: 2vh;
+  width: 90vw;
+}
+
+.error-icon {
+  width: 25px; 
+  height: 25px; 
+  margin-top: 2vh;
 }
 
 /* Mobile Menu */
@@ -1069,7 +1087,7 @@ form {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    margin-top: 24vh;
+    margin-top: 22vh;
   }
 
   .about-description {
@@ -1224,4 +1242,26 @@ form {
   .button-form {
     align-self: center;
   }
+
+  .error-message {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--white);
+    font-family: var(--main-font);
+    font-weight: bold;
+    font-size: large;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    width: 50vw;
+  }
+  
+  .error-icon {
+    display: flex;
+    margin-top: 1vh;
+    width: 30vw;
+    height: 5vh;
+  }
+
 }
