@@ -26,75 +26,74 @@ for (let i = 0; i < menuLinks.length; i += 1) {
 // Project cards settings
 const cards = [
   {
-      id: '0',
-      img: './assets/Snapshoot Portfolio-1.svg',
-      alt: 'Tonic',
-      name: 'Tonic',
-      feature: 'CANOPY',
-      feature2: 'Back End Dev',
-      feature3: '2015',
-      description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      language: 'HTML',
-      language2: 'Ruby',
-      language3: 'CSS',
-      language4: 'Javascript',
-      framework: 'Bootstrap'
+    id: '0',
+    img: './assets/Snapshoot Portfolio-1.svg',
+    alt: 'Tonic',
+    name: 'Tonic',
+    feature: 'CANOPY',
+    feature2: 'Back End Dev',
+    feature3: '2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    language: 'HTML',
+    language2: 'Ruby',
+    language3: 'CSS',
+    language4: 'Javascript',
+    framework: 'Bootstrap',
   },
   {
-      id: '1',
-      img: './assets/Snapshoot Portfolio-2.svg',
-      alt: 'Multi-Post Stories',
-      name: 'Multi-Post Stories',
-      feature: 'FACEBOOK',
-      feature2: 'Full Stack Dev',
-      feature3: '2015',
-      description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-      language: 'HTML',
-      language2: 'Ruby',
-      language3: 'CSS',
-      language4: 'Javascript',
-      framework: 'Bootstrap'
+    id: '1',
+    img: './assets/Snapshoot Portfolio-2.svg',
+    alt: 'Multi-Post Stories',
+    name: 'Multi-Post Stories',
+    feature: 'FACEBOOK',
+    feature2: 'Full Stack Dev',
+    feature3: '2015',
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    language: 'HTML',
+    language2: 'Ruby',
+    language3: 'CSS',
+    language4: 'Javascript',
+    framework: 'Bootstrap',
   },
   {
-      id: '2',
-      img: './assets/Snapshoot Portfolio-3.svg',
-      alt: 'Facebook 360',
-      name: 'Facebook 360',
-      feature: 'FACEBOOK',
-      feature2: 'Full Stack Dev',
-      feature3: '2015',
-      description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-      language: 'HTML',
-      language2: 'Ruby',
-      language3: 'CSS',
-      language4: 'Javascript',
-      framework: 'Bootstrap'
+    id: '2',
+    img: './assets/Snapshoot Portfolio-3.svg',
+    alt: 'Facebook 360',
+    name: 'Facebook 360',
+    feature: 'FACEBOOK',
+    feature2: 'Full Stack Dev',
+    feature3: '2015',
+    description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    language: 'HTML',
+    language2: 'Ruby',
+    language3: 'CSS',
+    language4: 'Javascript',
+    framework: 'Bootstrap',
   },
   {
-      id: '3',
-      img: './assets/Snapshoot Portfolio-4.svg',
-      alt: 'Uber Navigation',
-      name: 'Uber Navigation',
-      feature: 'Uber',
-      feature2: 'Lead Developer',
-      feature3: '2018',
-      description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-      language: 'HTML',
-      language2: 'Ruby',
-      language3: 'CSS',
-      language4: 'Javascript',
-      framework: 'Bootstrap'
-  }
-]
+    id: '3',
+    img: './assets/Snapshoot Portfolio-4.svg',
+    alt: 'Uber Navigation',
+    name: 'Uber Navigation',
+    feature: 'Uber',
+    feature2: 'Lead Developer',
+    feature3: '2018',
+    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    language: 'HTML',
+    language2: 'Ruby',
+    language3: 'CSS',
+    language4: 'Javascript',
+    framework: 'Bootstrap',
+  },
+];
 
 // SHOW THE CARDS
 const showCard = () => {
-  const cardContainer = document.querySelector('.work-section')
-  cards.forEach( card => {
-      const article = document.createElement('article')
-      article.classList.add('work-description')
-      article.innerHTML =
-      `
+  const cardContainer = document.querySelector('.work-section');
+  cards.forEach((card) => {
+    const article = document.createElement('article');
+    article.classList.add('work-description');
+    article.innerHTML = `
       <figure class="work-image-container multi">
       <img src="${card.img}" alt="${card.alt}" class="work-image"> 
       </figure>
@@ -114,41 +113,38 @@ const showCard = () => {
       </ul>
       <button id="${card.id}" class="work-button">See Project</button>
       </div>
-      `
-      cardContainer.appendChild(article)
-  })
-}
-showCard()
-
+      `;
+    cardContainer.appendChild(article);
+  });
+};
+showCard();
 
 // WINDOW POPUP SETTINGS
-const popupModal = document.getElementById('popupModal')
-const popupDescription = document.querySelector('.popup-description')
-const navbarSection = document.querySelector('.main-nav')
-const workSection = document.querySelector('.work-section')
-const workBtn = document.querySelectorAll('.work-button')
+const popupModal = document.getElementById('popupModal');
+const navbarSection = document.querySelector('.main-nav');
+const workSection = document.querySelector('.work-section');
+const workBtn = document.querySelectorAll('.work-button');
 
 const createPopup = (ind) => {
-    const work = cards[ind]
-    const {
-        img,
-        alt,
-        name,
-        feature,
-        feature2,
-        feature3,
-        description,
-        language,
-        language2,
-        language3,
-        language4,
-        framework
-    } = work
+  const work = cards[ind];
+  const {
+    img,
+    alt,
+    name,
+    feature,
+    feature2,
+    feature3,
+    description,
+    language,
+    language2,
+    language3,
+    language4,
+    framework,
+  } = work;
 
-    const article = document.createElement('article')
-    article.classList.add('popup-description')
-    article.innerHTML = 
-    `
+  const article = document.createElement('article');
+  article.classList.add('popup-description');
+  article.innerHTML = `
     <header class="popup-header">
         <h2 class="popup-title">${name}</h2> 
         <img src="assets/Cancel.svg" alt="Close Icon" class="popup-close">
@@ -185,30 +181,30 @@ const createPopup = (ind) => {
             </div>
         </div>    
     </div>
-    `
-    popupModal.appendChild(article)
+    `;
+  popupModal.appendChild(article);
 
-    document.body.style.overflow = 'hidden'
-    
-    const closePopup = document.querySelector('.popup-close')
-    closePopup.addEventListener('click', ()=> {
-        workSection.classList.remove('blurEffect')
-        navbarSection.style.display = 'flex'
-        document.body.style.overflow = 'scroll'
-        popupModal.removeChild(article)
-        workBtn.forEach((btn) => {
-            btn.classList.remove('press')
-        })
-    })
-}
+  document.body.style.overflow = 'hidden';
 
-// WORK BUTTON    
+  const closePopup = document.querySelector('.popup-close');
+  closePopup.addEventListener('click', () => {
+    workSection.classList.remove('blurEffect');
+    navbarSection.style.display = 'flex';
+    document.body.style.overflow = 'scroll';
+    popupModal.removeChild(article);
+    workBtn.forEach((btn) => {
+      btn.classList.remove('press');
+    });
+  });
+};
+
+// WORK BUTTON
 workBtn.forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-        btn.classList.toggle('press')
-        const ind = e.target.id
-        createPopup(ind)
-        workSection.classList.add('blurEffect')
-        navbarSection.style.display = 'none'
-    })
-})
+  btn.addEventListener('click', (e) => {
+    btn.classList.toggle('press');
+    const ind = e.target.id;
+    createPopup(ind);
+    workSection.classList.add('blurEffect');
+    navbarSection.style.display = 'none';
+  });
+});

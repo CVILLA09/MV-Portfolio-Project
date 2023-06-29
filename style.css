@@ -851,8 +851,8 @@ form {
 
   /* WORKS SECTION */
   .work-section {
-    row-gap: 10vh; 
-    max-width: 90vw; 
+    row-gap: 10vh;
+    max-width: 90vw;
     margin: 0 auto;
   }
 
@@ -896,7 +896,7 @@ form {
     align-items: center;
     gap: 12px;
   }
-  
+
   .work-features-item {
     font-size: 16px;
     font-family: var(--main-font);
@@ -944,7 +944,7 @@ form {
     max-width: 1156px;
     max-height: 1163px;
     flex-shrink: 0;
-    box-shadow: 0px 48px 48px 0px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px 0 rgba(37, 47, 137, 0.08);
   }
 
   .popup-title {
@@ -962,7 +962,7 @@ form {
     font-weight: 500;
     line-height: 20px;
     font-size: 15px;
-    font-family: var(--main-font)
+    font-family: var(--main-font);
   }
 
   .popup-image-container {
@@ -1014,7 +1014,6 @@ form {
     max-width: 306px;
     border-bottom: none;
     margin-bottom: 10px;
-    max-height: fit-content;
   }
 
   .second-row {
