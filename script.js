@@ -222,3 +222,32 @@ form.addEventListener('submit', (event) => {
     emailError.textContent = '';
   }
 });
+
+// Select elements
+const nameInput = document.getElementById('fullname');
+const emailInput = document.getElementById('email');
+const messageInput = document.getElementById('comment');
+
+// Preserve User Data in Browser
+[nameInput, emailInput, messageInput].forEach((inputField) => {
+  inputField.addEventListener('input', () => {
+    let user = {
+      fullname: nameInput.value,
+      email: emailInput.value,
+      comment: messageInput.value,
+    };
+    user = JSON.stringify(user);
+    localStorage.setItem('user', user);
+  });
+});
+
+// Load data from Browser
+window.addEventListener('load', () => {
+  const userValue = localStorage.getItem('user');
+  if (userValue) {
+    const userObject = JSON.parse(userValue);
+    nameInput.value = userObject.fullname || '';
+    emailInput.value = userObject.email || '';
+    messageInput.value = userObject.comment || '';
+  }
+});
