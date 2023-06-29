@@ -1045,7 +1045,6 @@ form {
     padding: 8px 25px;
     border-radius: 8px;
     border: 1px solid var(--thirdColor);
-    width: 150px; 
     height: 40px;
     text-align: center;
     font-size: 15px;
@@ -1053,8 +1052,9 @@ form {
     font-weight: 500;
     line-height: 20px;
     margin-top: -7px;
-    flex-wrap: nowrap; /* Add this line */
+    flex-wrap: nowrap;
     white-space: nowrap;
+    width: 150px;
   }
 
   /* About Section */
