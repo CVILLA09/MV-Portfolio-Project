@@ -1061,7 +1061,7 @@ form {
   .about-section {
     display: flex;
     justify-content: start;
-    padding-top: 1vh;
+    margin-top: -6vh;
   }
 
   .about-container {
