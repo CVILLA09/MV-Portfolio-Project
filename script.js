@@ -225,15 +225,15 @@ form.addEventListener('submit', (event) => {
 
 // Select elements
 const nameInput = document.getElementById('fullname');
-const emailInput = document.getElementById('email');
+const emInput = document.getElementById('email');
 const messageInput = document.getElementById('comment');
 
 // Preserve User Data in Browser
-[nameInput, emailInput, messageInput].forEach((inputField) => {
+[nameInput, emInput, messageInput].forEach((inputField) => {
   inputField.addEventListener('input', () => {
     let user = {
       fullname: nameInput.value,
-      email: emailInput.value,
+      email: emInput.value,
       comment: messageInput.value,
     };
     user = JSON.stringify(user);
@@ -247,7 +247,7 @@ window.addEventListener('load', () => {
   if (userValue) {
     const userObject = JSON.parse(userValue);
     nameInput.value = userObject.fullname || '';
-    emailInput.value = userObject.email || '';
+    emInput.value = userObject.email || '';
     messageInput.value = userObject.comment || '';
   }
 });
