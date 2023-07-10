@@ -43,7 +43,7 @@ In this project, I built my personal portfolio website to showcase my skills, pr
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[View Live Demo](https://cvilla09.github.io/Portfolio/)
+[View Live Demo]([https://cvilla09.github.io/Portfolio/](https://cvilla09.github.io/Microverse-Portfolio-Project/))
 
 # 💻 Getting Started <a name="getting-started"></a>
 
